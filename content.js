@@ -54,6 +54,8 @@ const siteContent = {
       intro: 'Gửi thông tin đề tài, nhu cầu phân tích hoặc ý tưởng hợp tác để phòng phản hồi và trao đổi hướng triển khai phù hợp.',
       email: 'nhiemdn@ims.vast.ac.vn',
       address: '406B2, 18 Hoàng Quốc Việt, Nghĩa Đô, Hà Nội',
+      mapsUrl: 'https://maps.app.goo.gl/9ETvBbCDyM5J5xkx8',
+      mapsLabel: 'Mở bằng Google Maps',
       head: { name: 'PGS.TS. Đào Ngọc Nhiệm', title: 'Trưởng phòng', office: 'Phòng 406, nhà B2', phone: '0915417696', email: 'nhiemdn@ims.vast.ac.vn', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] },
       hours: 'Thứ Hai - Thứ Sáu, 08:00 - 17:00'
     },
@@ -107,7 +109,7 @@ const siteContent = {
     people: { title: 'People', lead: 'An open research group built around careful experimentation and interdisciplinary collaboration.', intro: 'Replace these placeholder cards with the principal investigator, researchers, PhD students, graduate students, and active project members.' },
     publications: { title: 'Publications', lead: 'Journal papers, conferences, projects, and intellectual property can be updated regularly.', intro: 'The entries below are placeholders ready to be replaced with real publications.' },
     activities: { title: 'Activities', lead: 'News, seminars, collaborations, training, and academic activities of the lab.', intro: 'A card-based news structure with image, category, date, and short description.' },
-    contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'nhiemdn@ims.vast.ac.vn', address: '406B2, 18 Hoang Quoc Viet, Nghia Do, Ha Noi, Vietnam', head: { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', title: 'Head of Laboratory', office: 'Room 406, Building B2', phone: '0915417696', email: 'nhiemdn@ims.vast.ac.vn', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }, hours: 'Monday - Friday, 08:00 - 17:00' },
+    contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'nhiemdn@ims.vast.ac.vn', address: '406B2, 18 Hoang Quoc Viet, Nghia Do, Ha Noi, Vietnam', mapsUrl: 'https://maps.app.goo.gl/9ETvBbCDyM5J5xkx8', mapsLabel: 'Open in Google Maps', head: { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', title: 'Head of Laboratory', office: 'Room 406, Building B2', phone: '0915417696', email: 'nhiemdn@ims.vast.ac.vn', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }, hours: 'Monday - Friday, 08:00 - 17:00' },
     researchItems: [
       ['Rare-earth extraction and purification', 'Developing processes for extraction, purification, separation of rare-earth elements, and application-oriented use in functional materials.'],
       ['Hydrometallurgy and recovery of valuable metals', 'Hydrometallurgical separation and recovery of selected rare and valuable metals from ores, secondary resources, and value-bearing streams.'],

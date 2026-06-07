@@ -43,7 +43,9 @@ function renderList(container, key, lang) {
   }
   if (key === 'contact') {
     container.className = 'contact-page';
-    container.innerHTML = `<div class="contact-card reveal"><h2>${data.contact.title}</h2><p>${data.contact.lead}</p><a class="btn primary" href="mailto:${data.contact.email}">${data.contact.email}</a></div><div class="contact-details reveal"><p><strong>Address</strong><br>${data.contact.address}</p><p><strong>Hours</strong><br>${data.contact.hours}</p></div>`;
+    const head = data.contact.head;
+    const headLinks = (head.links || []).map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join('');
+    container.innerHTML = `<div class="contact-card reveal"><h2>${data.contact.title}</h2><p>${data.contact.lead}</p><a class="btn primary" href="mailto:${data.contact.email}">${data.contact.email}</a></div><div class="contact-details reveal"><p><strong>${head.title}</strong><br>${head.name}</p><p><strong>Office</strong><br>${head.office}</p><p><strong>Phone</strong><br><a href="tel:${head.phone}">${head.phone}</a></p><p><strong>Email</strong><br><a href="mailto:${head.email}">${head.email}</a></p><div class="profile-links">${headLinks}</div><p><strong>Address</strong><br>${data.contact.address}</p><p><strong>Hours</strong><br>${data.contact.hours}</p></div>`;
   }
 }
 

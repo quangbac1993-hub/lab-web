@@ -25,7 +25,13 @@ function renderList(container, key, lang) {
   }
   if (key === 'peopleList') {
     container.className = 'people-grid page-grid';
-    container.innerHTML = items.map(([name, role, focus]) => `<article class="person reveal"><div class="avatar">${name.split(' ').map((part) => part[0]).join('').slice(0, 2)}</div><h3>${name}</h3><p>${role}</p><p>${focus}</p></article>`).join('');
+    container.innerHTML = items.map((item) => {
+      const person = Array.isArray(item) ? { name: item[0], role: item[1], focus: item[2] } : item;
+      const initials = person.name.split(' ').map((part) => part[0]).join('').slice(0, 2);
+      const links = (person.links || []).map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join('');
+      const avatar = person.photo ? `<img class="avatar-photo" src="${person.photo}" alt="${person.name}" />` : `<div class="avatar">${initials}</div>`;
+      return `<article class="person reveal">${avatar}<h3>${person.name}</h3><p class="person-role">${person.role}</p><p>${person.focus}</p>${person.email ? `<a class="person-email" href="mailto:${person.email}">${person.email}</a>` : ''}<div class="profile-links">${links}</div></article>`;
+    }).join('');
   }
   if (key === 'publicationList') {
     container.className = 'publication-list';

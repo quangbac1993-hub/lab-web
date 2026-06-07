@@ -21,7 +21,7 @@ const siteContent = {
       title: 'Nghiên cứu vật liệu vô cơ chức năng cho năng lượng, môi trường và thiết bị thông minh.',
       lead: 'Chúng tôi chế tạo, đặc trưng và tối ưu vật liệu gốm, oxit, vật liệu phát quang, nano vô cơ, vật liệu đất hiếm và xúc tác xử lý môi trường.',
       aboutTitle: 'Kết nối tổng hợp vật liệu chính xác với hiệu năng ứng dụng thực tế.',
-      aboutText: 'Phòng tập trung nghiên cứu chế tạo, khảo sát cấu trúc, tính chất và định hướng ứng dụng của vật liệu vô cơ chức năng. Các hướng phát triển gồm gốm kỹ thuật, gốm điện tử, vật liệu quang, vật liệu nano, xúc tác môi trường và vật liệu liên quan đến năng lượng.',
+      aboutText: 'Dựa trên định hướng của Phòng Vật liệu vô cơ, Viện Khoa học vật liệu, chúng tôi tập trung nghiên cứu chế tạo, khảo sát cấu trúc, tính chất và định hướng ứng dụng của vật liệu vô cơ chức năng. Các hướng phát triển gồm gốm kỹ thuật, gốm điện tử, vật liệu quang, vật liệu nano, xúc tác môi trường và vật liệu liên quan đến năng lượng.',
       programsTitle: 'Các hướng nghiên cứu chính',
       capabilitiesTitle: 'Năng lực nghiên cứu và hợp tác',
       outputsTitle: 'Kết quả và hoạt động nổi bật',
@@ -71,10 +71,10 @@ const siteContent = {
       ['Hợp tác', 'Tư vấn vật liệu, đề tài chung, đào tạo sinh viên, kết nối công nghiệp và công bố khoa học.']
     ],
     peopleList: [
-      ['Dr. Bac Nguyen', 'Trưởng nhóm nghiên cứu', 'Đất hiếm, vật liệu vô cơ chức năng, xúc tác môi trường'],
-      ['Cán bộ nghiên cứu', 'Nghiên cứu viên', 'Tổng hợp vật liệu, đặc trưng cấu trúc và tính chất'],
-      ['Nghiên cứu sinh', 'PhD researchers', 'Gốm, oxit chức năng, nano vô cơ'],
-      ['Học viên & sinh viên', 'Graduate students', 'Đề tài vật liệu môi trường và năng lượng']
+      { name: 'Dr. Quang-Bac Nguyen', role: 'Trưởng nhóm nghiên cứu', focus: 'Vật liệu đất hiếm, vật liệu vô cơ chức năng, xúc tác cho môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+      { name: 'Cán bộ nghiên cứu', role: 'Nghiên cứu viên', focus: 'Tổng hợp vật liệu, đặc trưng cấu trúc, hình thái và tính chất', photo: '../assets/rare-earth-catalyst.svg', links: [] },
+      { name: 'Nghiên cứu sinh', role: 'PhD researchers', focus: 'Gốm kỹ thuật, oxit chức năng, vật liệu nano vô cơ và vật liệu năng lượng', photo: '../assets/environment-catalysis.svg', links: [] },
+      { name: 'Học viên & sinh viên', role: 'Graduate students', focus: 'Đề tài vật liệu môi trường, năng lượng, phát quang và xúc tác', photo: '../assets/rare-earth-catalyst.svg', links: [] }
     ],
     publicationList: [
       ['2025', 'Rare-earth activated inorganic phosphors for optical sensing', 'Manuscript placeholder'],
@@ -90,7 +90,7 @@ const siteContent = {
   en: {
     nav: { home: 'Home', research: 'Research', people: 'People', publications: 'Publications', activities: 'Activities', contact: 'Contact' },
     common: { labName: 'Inorganic Materials Laboratory', labShort: 'IML', affiliation: 'Institute of Materials Science', ctaResearch: 'Explore research', ctaContact: 'Start collaboration', sourceNote: 'Base content references public information from the Inorganic Materials Laboratory, Institute of Materials Science.' },
-    home: { eyebrow: 'Inorganic materials • Rare earths • Environmental catalysis', title: 'Functional inorganic materials for energy, environment, and intelligent devices.', lead: 'We synthesize, characterize, and optimize ceramics, oxides, phosphors, inorganic nanomaterials, rare-earth materials, and catalysts for environmental applications.', aboutTitle: 'Connecting precise synthesis with application-level performance.', aboutText: 'The lab focuses on fabrication, structural analysis, property evaluation, and application-oriented development of functional inorganic materials, including technical ceramics, electronic ceramics, optical materials, nanomaterials, environmental catalysts, and energy-related systems.', programsTitle: 'Core research directions', capabilitiesTitle: 'Research and collaboration capabilities', outputsTitle: 'Selected outputs and activities', collaborationTitle: 'Bring us a materials challenge.', collaborationText: 'We welcome joint research, student supervision, sponsored projects, materials testing, and technology-oriented consultation.' },
+    home: { eyebrow: 'Inorganic materials • Rare earths • Environmental catalysis', title: 'Functional inorganic materials for energy, environment, and intelligent devices.', lead: 'We synthesize, characterize, and optimize ceramics, oxides, phosphors, inorganic nanomaterials, rare-earth materials, and catalysts for environmental applications.', aboutTitle: 'Connecting precise synthesis with application-level performance.', aboutText: 'Based on the research orientation of the Inorganic Materials Laboratory, Institute of Materials Science, the lab focuses on fabrication, structural analysis, property evaluation, and application-oriented development of functional inorganic materials, including technical ceramics, electronic ceramics, optical materials, nanomaterials, environmental catalysts, and energy-related systems.', programsTitle: 'Core research directions', capabilitiesTitle: 'Research and collaboration capabilities', outputsTitle: 'Selected outputs and activities', collaborationTitle: 'Bring us a materials challenge.', collaborationText: 'We welcome joint research, student supervision, sponsored projects, materials testing, and technology-oriented consultation.' },
     research: { title: 'Research', lead: 'From materials synthesis to structure, properties, and applications.', intro: 'Our programs are organized around functional oxides, advanced ceramics, rare-earth luminescent materials, inorganic nanomaterials, environmental catalysis, and energy materials.' },
     people: { title: 'People', lead: 'An open research group built around careful experimentation and interdisciplinary collaboration.', intro: 'Replace these placeholder cards with the principal investigator, researchers, PhD students, graduate students, and active project members.' },
     publications: { title: 'Publications', lead: 'Journal papers, conferences, projects, and intellectual property can be updated regularly.', intro: 'The entries below are placeholders ready to be replaced with real publications.' },
@@ -111,10 +111,10 @@ const siteContent = {
       ['Collaboration', 'Materials consultation, joint projects, student training, industrial links, and scientific publications.']
     ],
     peopleList: [
-      ['Dr. Bac Nguyen', 'Principal Investigator', 'Rare earths, functional inorganic materials, environmental catalysis'],
-      ['Research Staff', 'Researchers', 'Materials synthesis, structure and property characterization'],
-      ['PhD Researchers', 'Doctoral students', 'Ceramics, functional oxides, inorganic nanomaterials'],
-      ['Graduate Students', 'Students', 'Environmental and energy materials projects']
+      { name: 'Dr. Quang-Bac Nguyen', role: 'Principal Investigator', focus: 'Rare-earth materials, functional inorganic materials, and environmental catalysis', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+      { name: 'Research Staff', role: 'Researchers', focus: 'Materials synthesis, structural characterization, morphology, and property evaluation', photo: '../assets/rare-earth-catalyst.svg', links: [] },
+      { name: 'PhD Researchers', role: 'Doctoral students', focus: 'Technical ceramics, functional oxides, inorganic nanomaterials, and energy materials', photo: '../assets/environment-catalysis.svg', links: [] },
+      { name: 'Graduate Students', role: 'Students', focus: 'Environmental, energy, luminescent, and catalytic materials projects', photo: '../assets/rare-earth-catalyst.svg', links: [] }
     ],
     publicationList: [
       ['2025', 'Rare-earth activated inorganic phosphors for optical sensing', 'Manuscript placeholder'],

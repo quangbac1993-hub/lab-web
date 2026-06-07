@@ -52,8 +52,8 @@ const siteContent = {
       title: 'Liên hệ',
       lead: 'Kết nối để hợp tác nghiên cứu, đào tạo và chuyển giao vật liệu vô cơ.',
       intro: 'Gửi thông tin đề tài, nhu cầu phân tích hoặc ý tưởng hợp tác để phòng phản hồi và trao đổi hướng triển khai phù hợp.',
-      email: 'bac.nguyen@example.edu',
-      address: 'Phòng Vật liệu Vô cơ, Viện Khoa học vật liệu, Việt Nam',
+      email: 'bacnq@ims.vast.ac.vn',
+      address: '406B2, 18 Hoàng Quốc Việt, Nghĩa Đô, Hà Nội',
       hours: 'Thứ Hai - Thứ Sáu, 08:00 - 17:00'
     },
     researchItems: [
@@ -95,7 +95,7 @@ const siteContent = {
     people: { title: 'People', lead: 'An open research group built around careful experimentation and interdisciplinary collaboration.', intro: 'Replace these placeholder cards with the principal investigator, researchers, PhD students, graduate students, and active project members.' },
     publications: { title: 'Publications', lead: 'Journal papers, conferences, projects, and intellectual property can be updated regularly.', intro: 'The entries below are placeholders ready to be replaced with real publications.' },
     activities: { title: 'Activities', lead: 'News, seminars, collaborations, training, and academic activities of the lab.', intro: 'A card-based news structure with image, category, date, and short description.' },
-    contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'bac.nguyen@example.edu', address: 'Inorganic Materials Laboratory, Institute of Materials Science, Vietnam', hours: 'Monday - Friday, 08:00 - 17:00' },
+    contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'bacnq@ims.vast.ac.vn', address: '406B2, 18 Hoang Quoc Viet, Nghia Do, Ha Noi, Vietnam', hours: 'Monday - Friday, 08:00 - 17:00' },
     researchItems: [
       ['Functional inorganic materials', 'Designing oxides, spinels, perovskites, and multi-component inorganic systems with electrical, magnetic, optical, thermal, or catalytic properties.'],
       ['Technical and electronic ceramics', 'Fabricating advanced ceramics and evaluating microstructure, thermal durability, dielectric properties, and device integration potential.'],

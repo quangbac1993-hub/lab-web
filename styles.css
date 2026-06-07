@@ -21,3 +21,7 @@ body[data-page="home"] .hero-actions{justify-content:center}
 body[data-page="home"] .hero-panel{width:min(1040px,100%);min-height:520px}
 body[data-page="home"] .hero-art{object-fit:contain;background:rgba(255,250,240,.04)}
 @media(max-width:720px){body[data-page="home"] .hero-panel{min-height:360px}body[data-page="home"] .metric-card{right:18px;bottom:18px;width:132px;padding:18px}body[data-page="home"] .metric-card strong{font-size:2.6rem}}
+
+
+/* People section grouping */
+.people-sections{display:grid;gap:54px}.people-section{display:grid;gap:18px}.people-section-heading{display:flex;align-items:center;gap:18px;font-family:"Be Vietnam Pro",Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--steel)}.people-section-heading:after{content:"";height:1px;flex:1;background:linear-gradient(90deg,rgba(31,111,104,.35),transparent)}.people-section-heading span{display:inline-flex;padding:10px 14px;border-radius:999px;background:rgba(31,111,104,.1);border:1px solid rgba(31,111,104,.18)}.people-section .people-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.people-section:first-child .people-grid{grid-template-columns:minmax(260px,420px)}

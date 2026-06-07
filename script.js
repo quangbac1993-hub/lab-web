@@ -24,15 +24,20 @@ function renderList(container, key, lang) {
     container.innerHTML = items.map(([title, text]) => `<div class="capability-item"><strong>${title}</strong><span>${text}</span></div>`).join('');
   }
   if (key === 'peopleList') {
-    container.className = 'people-grid page-grid';
-    container.innerHTML = items.map((item) => {
+    container.className = 'people-sections';
+    const renderPerson = (item) => {
       const person = Array.isArray(item) ? { name: item[0], role: item[1], focus: item[2] } : item;
       const initials = person.name.split(' ').map((part) => part[0]).join('').slice(0, 2);
       const links = (person.links || []).map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join('');
       const avatar = person.photo ? `<img class="avatar-photo" src="${person.photo}" alt="${person.name}" />` : `<div class="avatar">${initials}</div>`;
       return `<article class="person reveal">${avatar}<h3>${person.name}</h3><p class="person-role">${person.role}</p><p>${person.focus}</p>${person.email ? `<a class="person-email" href="mailto:${person.email}">${person.email}</a>` : ''}<div class="profile-links">${links}</div></article>`;
+    };
+    container.innerHTML = items.map((group) => {
+      if (!group.members) return renderPerson(group);
+      return `<section class="people-section reveal"><div class="people-section-heading"><span>${group.section}</span></div><div class="people-grid page-grid">${group.members.map(renderPerson).join('')}</div></section>`;
     }).join('');
   }
+
   if (key === 'publicationList') {
     container.className = 'publication-list';
     container.innerHTML = items.map(([year, title, meta]) => `<article class="reveal"><span>${year}</span><h3>${title}</h3><p>${meta}</p></article>`).join('');

@@ -71,10 +71,22 @@ const siteContent = {
       ['Hợp tác', 'Tư vấn vật liệu, đề tài chung, đào tạo sinh viên, kết nối công nghiệp và công bố khoa học.']
     ],
     peopleList: [
-      { name: 'PGS.TS. Đào Ngọc Nhiệm', role: 'Trưởng phòng', focus: 'Chiết tách và làm sạch đất hiếm, thủy luyện, thu hồi kim loại quý hiếm và công nghệ xử lý môi trường', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] },
-      { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Chiết tách đất hiếm, thủy luyện kim loại quý hiếm, vật liệu nano và xử lý môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-      { name: 'Cán bộ nghiên cứu', role: 'Nghiên cứu viên', focus: 'Tổng hợp vật liệu, phân tích hóa học, đánh giá môi trường và phát triển quy trình xử lý', photo: '../assets/environment-catalysis.svg', links: [] },
-      { name: 'Học viên & sinh viên', role: 'Graduate students', focus: 'Đề tài đất hiếm, thủy luyện, vật liệu nano môi trường và xử lý chất thải', photo: '../assets/research-fields.svg', links: [] }
+      { section: 'Head of the laboratory', members: [
+        { name: 'PGS.TS. Đào Ngọc Nhiệm', role: 'Trưởng phòng', focus: 'Chiết tách và làm sạch đất hiếm, thủy luyện, thu hồi kim loại quý hiếm và công nghệ xử lý môi trường', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }
+      ] },
+      { section: 'Researchers', members: [
+        { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Chiết tách đất hiếm, thủy luyện kim loại quý hiếm, vật liệu nano và xử lý môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+        { name: 'Cán bộ nghiên cứu', role: 'Nghiên cứu viên', focus: 'Tổng hợp vật liệu, phân tích hóa học, đánh giá môi trường và phát triển quy trình xử lý', photo: '../assets/environment-catalysis.svg', links: [] }
+      ] },
+      { section: 'Collaborators', members: [
+        { name: 'Đối tác hợp tác', role: 'Collaborators', focus: 'Các nhóm nghiên cứu, viện/trường và đối tác công nghiệp trong lĩnh vực đất hiếm, thủy luyện và môi trường', photo: '../assets/research-fields.svg', links: [] }
+      ] },
+      { section: 'Students', members: [
+        { name: 'Học viên & sinh viên', role: 'Graduate students', focus: 'Đề tài đất hiếm, thủy luyện, vật liệu nano môi trường và xử lý chất thải', photo: '../assets/research-fields.svg', links: [] }
+      ] },
+      { section: 'Former Members', members: [
+        { name: 'Cựu thành viên', role: 'Alumni', focus: 'Danh sách cựu thành viên sẽ được cập nhật khi có dữ liệu chính thức', photo: '../assets/rare-earth-catalyst.svg', links: [] }
+      ] }
     ],
     publicationList: [
       ['2025', 'Rare-earth activated inorganic phosphors for optical sensing', 'Manuscript placeholder'],
@@ -110,10 +122,22 @@ const siteContent = {
       ['Collaboration', 'Materials consultation, joint projects, student training, industrial links, and scientific publications.']
     ],
     peopleList: [
-      { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', role: 'Head of Laboratory', focus: 'Rare-earth extraction and purification, hydrometallurgy, recovery of valuable metals, and environmental treatment technologies', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] },
-      { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Rare-earth extraction, hydrometallurgy of valuable metals, nanomaterials, and environmental treatment', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-      { name: 'Research Staff', role: 'Researchers', focus: 'Chemical analysis, environmental assessment, materials processing, and treatment technology development', photo: '../assets/environment-catalysis.svg', links: [] },
-      { name: 'Graduate Students', role: 'Students', focus: 'Rare earths, hydrometallurgy, environmental nanomaterials, and waste treatment projects', photo: '../assets/research-fields.svg', links: [] }
+      { section: 'Head of the laboratory', members: [
+        { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', role: 'Head of Laboratory', focus: 'Rare-earth extraction and purification, hydrometallurgy, recovery of valuable metals, and environmental treatment technologies', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }
+      ] },
+      { section: 'Researchers', members: [
+        { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Rare-earth extraction, hydrometallurgy of valuable metals, nanomaterials, and environmental treatment', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+        { name: 'Research Staff', role: 'Researchers', focus: 'Chemical analysis, environmental assessment, materials processing, and treatment technology development', photo: '../assets/environment-catalysis.svg', links: [] }
+      ] },
+      { section: 'Collaborators', members: [
+        { name: 'Research Partners', role: 'Collaborators', focus: 'Academic groups, institutes, universities, and industrial partners in rare earths, hydrometallurgy, and environmental technologies', photo: '../assets/research-fields.svg', links: [] }
+      ] },
+      { section: 'Students', members: [
+        { name: 'Graduate Students', role: 'Students', focus: 'Rare earths, hydrometallurgy, environmental nanomaterials, and waste treatment projects', photo: '../assets/research-fields.svg', links: [] }
+      ] },
+      { section: 'Former Members', members: [
+        { name: 'Former Members', role: 'Alumni', focus: 'Former member profiles will be added when official information is available', photo: '../assets/rare-earth-catalyst.svg', links: [] }
+      ] }
     ],
     publicationList: [
       ['2025', 'Rare-earth activated inorganic phosphors for optical sensing', 'Manuscript placeholder'],

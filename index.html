@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Inorganic Materials Lab</title>
+  <meta name="description" content="Bilingual website for an inorganic materials laboratory." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Inorganic Materials Lab home">
+      <span class="brand-mark" data-i18n="common.labShort">IML</span>
+      <span class="brand-text" data-i18n="common.labName">Inorganic Materials Lab</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" data-nav-toggle><span></span><span></span><span></span></button>
+    <nav class="main-nav" data-nav>
+      <a data-i18n="nav.home" href="index.html">Home</a>
+      <a data-i18n="nav.research" href="pages/research.html">Research</a>
+      <a data-i18n="nav.people" href="pages/people.html">People</a>
+      <a data-i18n="nav.publications" href="pages/publications.html">Publications</a>
+      <a data-i18n="nav.activities" href="pages/activities.html">Activities</a>
+      <a data-i18n="nav.contact" href="pages/contact.html">Contact</a>
+    </nav>
+    <button class="lang-switch" type="button" data-lang-toggle>EN</button>
+  </header>
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow" data-i18n="home.eyebrow"></p>
+        <h1 data-i18n="home.title"></h1>
+        <p class="lead" data-i18n="home.lead"></p>
+        <div class="hero-actions">
+          <a class="btn primary" data-i18n="common.ctaResearch" href="pages/research.html"></a>
+          <a class="btn ghost" data-i18n="common.ctaContact" href="pages/contact.html"></a>
+        </div>
+      </div>
+      <div class="hero-panel reveal delay-1">
+        <img class="hero-art" src="assets/rare-earth-catalyst.svg" alt="Rare-earth materials and environmental catalyst illustration" />
+        <div class="metric-card"><strong>6</strong><span>research directions</span></div>
+      </div>
+    </section>
+    <section class="strip"><span>Rare-earth phosphors</span><span>Environmental catalysis</span><span>Advanced ceramics</span><span>Functional oxides</span><span>Inorganic nanomaterials</span></section>
+    <section class="intro section-grid">
+      <div class="section-label reveal">About</div>
+      <div class="intro-text reveal delay-1"><h2 data-i18n="home.aboutTitle"></h2><p data-i18n="home.aboutText"></p><p class="source-note" data-i18n="common.sourceNote"></p></div>
+    </section>
+    <section class="research"><div class="section-heading reveal"><p class="eyebrow">Research</p><h2 data-i18n="home.programsTitle"></h2></div><div class="card-grid" data-render="researchItems"></div></section>
+    <section class="capabilities section-grid"><div class="section-label reveal">Capabilities</div><div class="capability-list reveal delay-1" data-render="capabilities"></div></section>
+    <section class="contact"><div class="contact-card reveal"><p class="eyebrow">Collaboration</p><h2 data-i18n="home.collaborationTitle"></h2><p data-i18n="home.collaborationText"></p><a class="btn primary" data-i18n="common.ctaContact" href="pages/contact.html"></a></div><div class="contact-details reveal delay-1"><img src="assets/environment-catalysis.svg" alt="Environmental catalysis illustration" /></div></section>
+  </main>
+  <footer class="site-footer">
+    <span>© 2025 <span data-i18n="common.labName">Inorganic Materials Lab</span></span>
+    <a href="#top">Back to top</a>
+  </footer>
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

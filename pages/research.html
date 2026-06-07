@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research | Inorganic Materials Lab</title>
+  <meta name="description" content="Bilingual website for an inorganic materials laboratory." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body data-page="research">
+  <header class="site-header" data-header>
+    <a class="brand" href="../index.html" aria-label="Inorganic Materials Lab home">
+      <span class="brand-mark" data-i18n="common.labShort">IML</span>
+      <span class="brand-text" data-i18n="common.labName">Inorganic Materials Lab</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" data-nav-toggle><span></span><span></span><span></span></button>
+    <nav class="main-nav" data-nav>
+      <a data-i18n="nav.home" href="../index.html">Home</a>
+      <a data-i18n="nav.research" href="research.html">Research</a>
+      <a data-i18n="nav.people" href="people.html">People</a>
+      <a data-i18n="nav.publications" href="publications.html">Publications</a>
+      <a data-i18n="nav.activities" href="activities.html">Activities</a>
+      <a data-i18n="nav.contact" href="contact.html">Contact</a>
+    </nav>
+    <button class="lang-switch" type="button" data-lang-toggle>EN</button>
+  </header>
+  <main id="top">
+    <section class="page-hero">
+      <p class="eyebrow" data-i18n="research.title"></p>
+      <h1 data-i18n="research.lead"></h1>
+      <p data-i18n="research.intro"></p>
+    </section>
+    <section class="page-content" data-render="researchItems"></section>
+  </main>
+  <footer class="site-footer">
+    <span>© 2025 <span data-i18n="common.labName">Inorganic Materials Lab</span></span>
+    <a href="#top">Back to top</a>
+  </footer>
+  <script src="../content.js"></script>
+  <script src="../script.js"></script>
+</body>
+</html>

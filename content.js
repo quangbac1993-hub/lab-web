@@ -78,7 +78,11 @@ const siteContent = {
       ] },
       { section: 'Researchers', members: [
         { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Chiết tách đất hiếm, thủy luyện kim loại quý hiếm, vật liệu nano và xử lý môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-        { name: 'Cán bộ nghiên cứu', role: 'Nghiên cứu viên', focus: 'Tổng hợp vật liệu, phân tích hóa học, đánh giá môi trường và phát triển quy trình xử lý', photo: '../assets/environment-catalysis.svg', links: [] }
+        { name: 'TS. Phạm Ngọc Chức', role: 'Nhân viên biên chế', focus: 'Phòng 408, nhà B2. Hướng nghiên cứu sẽ được cập nhật.', email: 'chucpn@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chuc-Pham' } ] },
+        { name: 'TS. Nguyễn Trung Kiên', role: 'Nhân viên biên chế', focus: 'Phòng 408, nhà B2. Hướng nghiên cứu sẽ được cập nhật.', email: 'ntkien@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0001-5213-3882' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Kien-Nguyen-120' } ] },
+        { name: 'ThS. Nguyễn Thị Hà Chi', role: 'Nhân viên biên chế', focus: 'Phòng 406, nhà B2. Hướng nghiên cứu sẽ được cập nhật.', email: 'chinth@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chi-Nguyen-94' } ] },
+        { name: 'ThS. Nguyễn Đỗ Huy Tuấn', role: 'Nhân viên biên chế', focus: 'Phòng 408, nhà B2. Hướng nghiên cứu sẽ được cập nhật.', email: 'tuanndh@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [] },
+        { name: 'Nguyễn Trần Dũng', role: 'Nhân viên', focus: 'Phòng 408, nhà B2. Hướng nghiên cứu sẽ được cập nhật.', email: 'dungnt@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [] }
       ] },
       { section: 'Collaborators', members: [
         { name: 'Đối tác hợp tác', role: 'Collaborators', focus: 'Các nhóm nghiên cứu, viện/trường và đối tác công nghiệp trong lĩnh vực đất hiếm, thủy luyện và môi trường', photo: '../assets/research-fields.svg', links: [] }
@@ -129,7 +133,11 @@ const siteContent = {
       ] },
       { section: 'Researchers', members: [
         { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Rare-earth extraction, hydrometallurgy of valuable metals, nanomaterials, and environmental treatment', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-        { name: 'Research Staff', role: 'Researchers', focus: 'Chemical analysis, environmental assessment, materials processing, and treatment technology development', photo: '../assets/environment-catalysis.svg', links: [] }
+        { name: 'Dr. Pham Ngoc Chuc', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'chucpn@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chuc-Pham' } ] },
+        { name: 'Dr. Nguyen Trung Kien', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'ntkien@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0001-5213-3882' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Kien-Nguyen-120' } ] },
+        { name: 'MSc. Nguyen Thi Ha Chi', role: 'Research staff', focus: 'Office 406, Building B2. Research details will be updated.', email: 'chinth@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chi-Nguyen-94' } ] },
+        { name: 'MSc. Nguyen Do Huy Tuan', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'tuanndh@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [] },
+        { name: 'Nguyen Tran Dung', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'dungnt@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [] }
       ] },
       { section: 'Collaborators', members: [
         { name: 'Research Partners', role: 'Collaborators', focus: 'Academic groups, institutes, universities, and industrial partners in rare earths, hydrometallurgy, and environmental technologies', photo: '../assets/research-fields.svg', links: [] }

@@ -19,9 +19,9 @@ const siteContent = {
     home: {
       eyebrow: 'Vật liệu vô cơ • Đất hiếm • Xúc tác môi trường',
       title: 'Nghiên cứu vật liệu vô cơ chức năng cho năng lượng, môi trường và thiết bị thông minh.',
-      lead: 'Chúng tôi chế tạo, đặc trưng và tối ưu vật liệu gốm, oxit, vật liệu phát quang, nano vô cơ, vật liệu đất hiếm và xúc tác xử lý môi trường.',
+      lead: 'Chúng tôi tập trung vào chiết tách và làm sạch đất hiếm, thủy luyện thu hồi kim loại quý hiếm, vật liệu nano xử lý môi trường, công nghệ xử lý chất thải công nghiệp và phân tích đánh giá ô nhiễm.',
       aboutTitle: 'Kết nối tổng hợp vật liệu chính xác với hiệu năng ứng dụng thực tế.',
-      aboutText: 'Dựa trên định hướng của Phòng Vật liệu vô cơ, Viện Khoa học vật liệu, chúng tôi tập trung nghiên cứu chế tạo, khảo sát cấu trúc, tính chất và định hướng ứng dụng của vật liệu vô cơ chức năng. Các hướng phát triển gồm gốm kỹ thuật, gốm điện tử, vật liệu quang, vật liệu nano, xúc tác môi trường và vật liệu liên quan đến năng lượng.',
+      aboutText: 'Dựa trên định hướng của Phòng Vật liệu vô cơ, Viện Khoa học vật liệu, chúng tôi phát triển các quy trình hóa học và công nghệ vật liệu phục vụ khai thác - làm sạch nguyên tố đất hiếm, thu hồi kim loại quý hiếm, chế tạo vật liệu nano xử lý nước/không khí, xử lý chất thải công nghiệp và đánh giá ô nhiễm môi trường.',
       programsTitle: 'Các hướng nghiên cứu chính',
       capabilitiesTitle: 'Năng lực nghiên cứu và hợp tác',
       outputsTitle: 'Kết quả và hoạt động nổi bật',
@@ -31,7 +31,7 @@ const siteContent = {
     research: {
       title: 'Hướng nghiên cứu',
       lead: 'Từ tổng hợp vật liệu đến cấu trúc, tính chất và ứng dụng.',
-      intro: 'Các chương trình nghiên cứu được tổ chức theo nền tảng vật liệu: oxit chức năng, gốm tiên tiến, vật liệu phát quang đất hiếm, nano vô cơ, xúc tác môi trường và vật liệu năng lượng.'
+      intro: 'Các chương trình nghiên cứu tập trung vào đất hiếm, thủy luyện kim loại quý hiếm, vật liệu nano xử lý môi trường, công nghệ xử lý chất thải công nghiệp và phân tích đánh giá ô nhiễm.'
     },
     people: {
       title: 'Nhân sự',
@@ -57,12 +57,11 @@ const siteContent = {
       hours: 'Thứ Hai - Thứ Sáu, 08:00 - 17:00'
     },
     researchItems: [
-      ['Vật liệu vô cơ chức năng', 'Thiết kế oxit, spinel, perovskite và hệ vô cơ đa thành phần với tính chất điện, từ, quang, nhiệt hoặc xúc tác.'],
-      ['Gốm kỹ thuật và gốm điện tử', 'Chế tạo gốm tiên tiến, khảo sát vi cấu trúc, độ bền nhiệt, tính chất điện môi và tiềm năng tích hợp thiết bị.'],
-      ['Vật liệu đất hiếm phát quang', 'Khai thác ion đất hiếm trong nền vô cơ để tạo vật liệu huỳnh quang, cảm biến quang và đánh dấu chức năng.'],
-      ['Xúc tác cho môi trường', 'Phát triển xúc tác oxit kim loại và nano vô cơ cho xử lý khí thải, phân hủy chất ô nhiễm và chuyển hóa sạch.'],
-      ['Vật liệu nano vô cơ', 'Điều khiển kích thước, hình thái và bề mặt nano để tối ưu hoạt tính, độ ổn định và tương tác với môi trường.'],
-      ['Vật liệu năng lượng', 'Nghiên cứu vật liệu điện cực, lớp phủ bảo vệ và hệ vô cơ phục vụ lưu trữ/chuyển hóa năng lượng.']
+      ['Chiết tách và làm sạch đất hiếm', 'Nghiên cứu quy trình chiết tách, tinh chế, phân chia các nguyên tố đất hiếm và phát triển các hướng ứng dụng trong vật liệu chức năng.'],
+      ['Thủy luyện và thu hồi kim loại quý hiếm', 'Phát triển công nghệ thủy luyện, phân chia và thu hồi một số kim loại quý hiếm từ quặng, nguồn thứ cấp và dòng vật liệu có giá trị.'],
+      ['Vật liệu nano xử lý môi trường', 'Chế tạo và ứng dụng vật liệu nano vô cơ trong xử lý môi trường nước, không khí, hấp phụ, xúc tác và phân hủy chất ô nhiễm.'],
+      ['Công nghệ xử lý chất thải công nghiệp', 'Nghiên cứu công nghệ thích nghi để xử lý thải lỏng, thải rắn phát sinh từ các nhà máy và quá trình sản xuất.'],
+      ['Phân tích hóa học và đánh giá ô nhiễm', 'Phân tích thành phần hóa học, đánh giá mức độ ô nhiễm môi trường và cung cấp dữ liệu khoa học cho giải pháp xử lý.']
     ],
     capabilities: [
       ['Tổng hợp', 'Sol-gel, thủy nhiệt, đồng kết tủa, phản ứng pha rắn, nung kết và xử lý nhiệt.'],
@@ -71,7 +70,7 @@ const siteContent = {
       ['Hợp tác', 'Tư vấn vật liệu, đề tài chung, đào tạo sinh viên, kết nối công nghiệp và công bố khoa học.']
     ],
     peopleList: [
-      { name: 'Dr. Quang-Bac Nguyen', role: 'Trưởng nhóm nghiên cứu', focus: 'Vật liệu đất hiếm, vật liệu vô cơ chức năng, xúc tác cho môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+      { name: 'Dr. Quang-Bac Nguyen', role: 'Trưởng nhóm nghiên cứu', focus: 'Chiết tách đất hiếm, thủy luyện kim loại quý hiếm, vật liệu nano và xử lý môi trường', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
       { name: 'Cán bộ nghiên cứu', role: 'Nghiên cứu viên', focus: 'Tổng hợp vật liệu, đặc trưng cấu trúc, hình thái và tính chất', photo: '../assets/rare-earth-catalyst.svg', links: [] },
       { name: 'Nghiên cứu sinh', role: 'PhD researchers', focus: 'Gốm kỹ thuật, oxit chức năng, vật liệu nano vô cơ và vật liệu năng lượng', photo: '../assets/environment-catalysis.svg', links: [] },
       { name: 'Học viên & sinh viên', role: 'Graduate students', focus: 'Đề tài vật liệu môi trường, năng lượng, phát quang và xúc tác', photo: '../assets/rare-earth-catalyst.svg', links: [] }
@@ -90,19 +89,18 @@ const siteContent = {
   en: {
     nav: { home: 'Home', research: 'Research', people: 'People', publications: 'Publications', activities: 'Activities', contact: 'Contact' },
     common: { labName: 'Inorganic Materials Laboratory', labShort: 'IML', affiliation: 'Institute of Materials Science', ctaResearch: 'Explore research', ctaContact: 'Start collaboration', sourceNote: 'Base content references public information from the Inorganic Materials Laboratory, Institute of Materials Science.' },
-    home: { eyebrow: 'Inorganic materials • Rare earths • Environmental catalysis', title: 'Functional inorganic materials for energy, environment, and intelligent devices.', lead: 'We synthesize, characterize, and optimize ceramics, oxides, phosphors, inorganic nanomaterials, rare-earth materials, and catalysts for environmental applications.', aboutTitle: 'Connecting precise synthesis with application-level performance.', aboutText: 'Based on the research orientation of the Inorganic Materials Laboratory, Institute of Materials Science, the lab focuses on fabrication, structural analysis, property evaluation, and application-oriented development of functional inorganic materials, including technical ceramics, electronic ceramics, optical materials, nanomaterials, environmental catalysts, and energy-related systems.', programsTitle: 'Core research directions', capabilitiesTitle: 'Research and collaboration capabilities', outputsTitle: 'Selected outputs and activities', collaborationTitle: 'Bring us a materials challenge.', collaborationText: 'We welcome joint research, student supervision, sponsored projects, materials testing, and technology-oriented consultation.' },
-    research: { title: 'Research', lead: 'From materials synthesis to structure, properties, and applications.', intro: 'Our programs are organized around functional oxides, advanced ceramics, rare-earth luminescent materials, inorganic nanomaterials, environmental catalysis, and energy materials.' },
+    home: { eyebrow: 'Inorganic materials • Rare earths • Environmental catalysis', title: 'Functional inorganic materials for energy, environment, and intelligent devices.', lead: 'We focus on rare-earth extraction and purification, hydrometallurgical recovery of valuable metals, nanomaterials for environmental treatment, industrial waste treatment technologies, and chemical pollution assessment.', aboutTitle: 'Connecting precise synthesis with application-level performance.', aboutText: 'Based on the research orientation of the Inorganic Materials Laboratory, Institute of Materials Science, the lab develops chemical and materials technologies for rare-earth purification, recovery of rare and valuable metals, nanomaterials for water/air treatment, industrial waste treatment, and environmental pollution assessment.', programsTitle: 'Core research directions', capabilitiesTitle: 'Research and collaboration capabilities', outputsTitle: 'Selected outputs and activities', collaborationTitle: 'Bring us a materials challenge.', collaborationText: 'We welcome joint research, student supervision, sponsored projects, materials testing, and technology-oriented consultation.' },
+    research: { title: 'Research', lead: 'From materials synthesis to structure, properties, and applications.', intro: 'Our programs focus on rare-earth elements, hydrometallurgical recovery of valuable metals, nanomaterials for environmental treatment, industrial waste treatment, and chemical pollution assessment.' },
     people: { title: 'People', lead: 'An open research group built around careful experimentation and interdisciplinary collaboration.', intro: 'Replace these placeholder cards with the principal investigator, researchers, PhD students, graduate students, and active project members.' },
     publications: { title: 'Publications', lead: 'Journal papers, conferences, projects, and intellectual property can be updated regularly.', intro: 'The entries below are placeholders ready to be replaced with real publications.' },
     activities: { title: 'Activities', lead: 'News, seminars, collaborations, training, and academic activities of the lab.', intro: 'A card-based news structure with image, category, date, and short description.' },
     contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'bacnq@ims.vast.ac.vn', address: '406B2, 18 Hoang Quoc Viet, Nghia Do, Ha Noi, Vietnam', hours: 'Monday - Friday, 08:00 - 17:00' },
     researchItems: [
-      ['Functional inorganic materials', 'Designing oxides, spinels, perovskites, and multi-component inorganic systems with electrical, magnetic, optical, thermal, or catalytic properties.'],
-      ['Technical and electronic ceramics', 'Fabricating advanced ceramics and evaluating microstructure, thermal durability, dielectric properties, and device integration potential.'],
-      ['Rare-earth luminescent materials', 'Using rare-earth ions in inorganic hosts for phosphors, optical sensing, and functional labeling.'],
-      ['Environmental catalysis', 'Developing metal-oxide and inorganic nano-catalysts for emission treatment, pollutant degradation, and cleaner conversion.'],
-      ['Inorganic nanomaterials', 'Controlling size, morphology, and surface chemistry to optimize activity, stability, and environmental interactions.'],
-      ['Energy materials', 'Studying electrodes, protective coatings, and inorganic systems for energy storage and conversion.']
+      ['Rare-earth extraction and purification', 'Developing processes for extraction, purification, separation of rare-earth elements, and application-oriented use in functional materials.'],
+      ['Hydrometallurgy and recovery of valuable metals', 'Hydrometallurgical separation and recovery of selected rare and valuable metals from ores, secondary resources, and value-bearing streams.'],
+      ['Nanomaterials for environmental treatment', 'Fabrication and application of inorganic nanomaterials for water and air treatment, adsorption, catalysis, and pollutant degradation.'],
+      ['Industrial waste treatment technologies', 'Adaptive technologies for treating liquid and solid wastes from factories and industrial production processes.'],
+      ['Chemical analysis and pollution assessment', 'Chemical analysis, environmental pollution assessment, and data support for selecting appropriate treatment solutions.']
     ],
     capabilities: [
       ['Synthesis', 'Sol-gel, hydrothermal, co-precipitation, solid-state reaction, sintering, and thermal treatment.'],
@@ -111,7 +109,7 @@ const siteContent = {
       ['Collaboration', 'Materials consultation, joint projects, student training, industrial links, and scientific publications.']
     ],
     peopleList: [
-      { name: 'Dr. Quang-Bac Nguyen', role: 'Principal Investigator', focus: 'Rare-earth materials, functional inorganic materials, and environmental catalysis', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
+      { name: 'Dr. Quang-Bac Nguyen', role: 'Principal Investigator', focus: 'Rare-earth extraction, hydrometallurgy of valuable metals, nanomaterials, and environmental treatment', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
       { name: 'Research Staff', role: 'Researchers', focus: 'Materials synthesis, structural characterization, morphology, and property evaluation', photo: '../assets/rare-earth-catalyst.svg', links: [] },
       { name: 'PhD Researchers', role: 'Doctoral students', focus: 'Technical ceramics, functional oxides, inorganic nanomaterials, and energy materials', photo: '../assets/environment-catalysis.svg', links: [] },
       { name: 'Graduate Students', role: 'Students', focus: 'Environmental, energy, luminescent, and catalytic materials projects', photo: '../assets/rare-earth-catalyst.svg', links: [] }

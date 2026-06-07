@@ -1,43 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-  <title id="title">Inorganic materials research fields</title>
-  <desc id="desc">A visual map of rare earth materials, environmental catalysis, ceramics, functional oxides, nanomaterials, and energy materials.</desc>
+  <title id="title">Inorganic materials laboratory research directions</title>
+  <desc id="desc">A visual map of five research directions: rare-earth extraction, hydrometallurgy, environmental nanomaterials, industrial waste treatment, and chemical pollution assessment.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#14201f"/>
-      <stop offset="0.55" stop-color="#1f6f68"/>
-      <stop offset="1" stop-color="#c96f2c"/>
-    </linearGradient>
-    <radialGradient id="core" cx="50%" cy="45%" r="50%">
-      <stop stop-color="#fffaf0"/>
-      <stop offset="0.38" stop-color="#c5d86d"/>
-      <stop offset="1" stop-color="#1f6f68"/>
-    </radialGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14201f"/><stop offset="0.55" stop-color="#1f6f68"/><stop offset="1" stop-color="#c96f2c"/></linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="50%"><stop stop-color="#fffaf0"/><stop offset="0.38" stop-color="#c5d86d"/><stop offset="1" stop-color="#1f6f68"/></radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1200" height="760" rx="48" fill="url(#bg)"/>
-  <g opacity="0.16" stroke="#fffaf0" stroke-width="1">
-    <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200"/>
-    <path d="M160 0v760M320 0v760M480 0v760M640 0v760M800 0v760M960 0v760"/>
-  </g>
-  <g fill="none" stroke="#fffaf0" stroke-width="5" opacity="0.52">
-    <path d="M600 380 280 190M600 380 920 190M600 380 250 545M600 380 950 545M600 380 600 128M600 380 600 638"/>
-  </g>
-  <circle cx="600" cy="380" r="118" fill="url(#core)" filter="url(#glow)"/>
-  <circle cx="600" cy="380" r="46" fill="#fffaf0" opacity="0.9"/>
+  <g opacity="0.16" stroke="#fffaf0" stroke-width="1"><path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200"/><path d="M160 0v760M320 0v760M480 0v760M640 0v760M800 0v760M960 0v760"/></g>
+  <g fill="none" stroke="#fffaf0" stroke-width="5" opacity="0.55"><path d="M600 380 600 138M600 380 886 274M600 380 776 610M600 380 424 610M600 380 314 274"/></g>
+  <circle cx="600" cy="380" r="118" fill="url(#core)" filter="url(#glow)"/><circle cx="600" cy="380" r="46" fill="#fffaf0" opacity="0.92"/>
   <g font-family="Be Vietnam Pro, Arial, sans-serif" font-weight="800" text-anchor="middle">
-    <g><circle cx="280" cy="190" r="76" fill="#fffaf0"/><text x="280" y="180" font-size="28" fill="#14201f">Rare-earth</text><text x="280" y="214" font-size="20" fill="#5e6b68">phosphors</text></g>
-    <g><circle cx="920" cy="190" r="76" fill="#fffaf0"/><text x="920" y="180" font-size="27" fill="#14201f">Catalysis</text><text x="920" y="214" font-size="20" fill="#5e6b68">environment</text></g>
-    <g><circle cx="250" cy="545" r="76" fill="#fffaf0"/><text x="250" y="535" font-size="28" fill="#14201f">Ceramics</text><text x="250" y="569" font-size="20" fill="#5e6b68">technical</text></g>
-    <g><circle cx="950" cy="545" r="76" fill="#fffaf0"/><text x="950" y="535" font-size="28" fill="#14201f">Energy</text><text x="950" y="569" font-size="20" fill="#5e6b68">materials</text></g>
-    <g><circle cx="600" cy="128" r="76" fill="#fffaf0"/><text x="600" y="118" font-size="28" fill="#14201f">Oxides</text><text x="600" y="152" font-size="20" fill="#5e6b68">functional</text></g>
-    <g><circle cx="600" cy="638" r="76" fill="#fffaf0"/><text x="600" y="628" font-size="28" fill="#14201f">Nano</text><text x="600" y="662" font-size="20" fill="#5e6b68">inorganic</text></g>
+    <g><circle cx="600" cy="138" r="82" fill="#fffaf0"/><text x="600" y="126" font-size="26" fill="#14201f">Rare-earth</text><text x="600" y="158" font-size="19" fill="#5e6b68">extraction</text></g>
+    <g><circle cx="886" cy="274" r="82" fill="#fffaf0"/><text x="886" y="262" font-size="25" fill="#14201f">Hydro</text><text x="886" y="294" font-size="19" fill="#5e6b68">metallurgy</text></g>
+    <g><circle cx="776" cy="610" r="82" fill="#fffaf0"/><text x="776" y="598" font-size="24" fill="#14201f">Nano</text><text x="776" y="630" font-size="18" fill="#5e6b68">environment</text></g>
+    <g><circle cx="424" cy="610" r="82" fill="#fffaf0"/><text x="424" y="598" font-size="24" fill="#14201f">Waste</text><text x="424" y="630" font-size="18" fill="#5e6b68">treatment</text></g>
+    <g><circle cx="314" cy="274" r="82" fill="#fffaf0"/><text x="314" y="262" font-size="24" fill="#14201f">Chemical</text><text x="314" y="294" font-size="18" fill="#5e6b68">analysis</text></g>
   </g>
-  <g fill="#c5d86d" opacity="0.85">
-    <circle cx="508" cy="332" r="14"/><circle cx="693" cy="329" r="14"/><circle cx="555" cy="468" r="14"/><circle cx="650" cy="466" r="14"/>
-  </g>
-  <text x="60" y="86" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="34" font-weight="800" fill="#fffaf0">Inorganic Materials Research Map</text>
-  <text x="60" y="126" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" fill="#fffaf0" opacity="0.76">structure • synthesis • properties • applications</text>
+  <g fill="#c5d86d" opacity="0.9"><circle cx="508" cy="332" r="14"/><circle cx="693" cy="329" r="14"/><circle cx="555" cy="468" r="14"/><circle cx="650" cy="466" r="14"/></g>
+  <text x="60" y="86" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="34" font-weight="800" fill="#fffaf0">Research Directions</text>
+  <text x="60" y="126" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="20" fill="#fffaf0" opacity="0.76">rare earths • hydrometallurgy • environment • waste • analysis</text>
 </svg>

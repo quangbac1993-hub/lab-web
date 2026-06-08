@@ -13,15 +13,27 @@ function renderList(container, key, lang) {
   const items = data[key];
   if (key === 'researchItems') {
     container.className = 'card-grid';
-    container.innerHTML = items.map(([title, text], index) => `
+    container.innerHTML = items.map((item, index) => {
+      const card = Array.isArray(item) ? { title: item[0], text: item[1] } : item;
+      const url = card.url && !window.location.pathname.includes('/pages/') ? `pages/${card.url}` : card.url;
+      const label = lang === 'vi' ? 'Xem chi tiết' : 'View details';
+      const link = url ? `<a class="card-link" href="${url}">${label}</a>` : '';
+      return `
       <article class="research-card reveal delay-${index % 4}">
         <span class="card-index">${String(index + 1).padStart(2, '0')}</span>
-        <h3>${title}</h3><p>${text}</p>
-      </article>`).join('');
+        <h3>${card.title}</h3><p>${card.text}</p>${link}
+      </article>`;
+    }).join('');
   }
   if (key === 'capabilities') {
     container.className = 'capability-list reveal delay-1';
     container.innerHTML = items.map(([title, text]) => `<div class="capability-item"><strong>${title}</strong><span>${text}</span></div>`).join('');
+  }
+  if (key === 'researchDetail') {
+    const topic = new URLSearchParams(window.location.search).get('topic') || 'rare-earths';
+    const detail = data.researchDetails?.[topic] || data.researchDetails?.['rare-earths'];
+    container.className = 'research-detail';
+    container.innerHTML = `<a class="back-link" href="research.html">← Research</a><h2>${detail.title}</h2><p class="lead">${detail.lead}</p><div class="detail-columns"><section><h3>Specific studies</h3><ul>${detail.studies.map((item) => `<li>${item}</li>`).join('')}</ul></section><section><h3>Selected outputs</h3><ul>${detail.outputs.map((item) => `<li>${item}</li>`).join('')}</ul></section></div>`;
   }
   if (key === 'peopleList') {
     container.className = 'people-sections';
@@ -40,7 +52,11 @@ function renderList(container, key, lang) {
 
   if (key === 'publicationList') {
     container.className = 'publication-list';
-    container.innerHTML = items.map(([year, title, meta]) => `<article class="reveal"><span>${year}</span><h3>${title}</h3><p>${meta}</p></article>`).join('');
+    container.innerHTML = items.map((item) => {
+      if (item.type === 'section') return `<div class="publication-section-title reveal">${item.title}</div>`;
+      const title = item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a>` : item.title;
+      return `<article class="reveal ${item.type === 'patent' ? 'patent-item' : ''}"><span>${item.year}</span><h3>${title}</h3><p>${item.meta}</p></article>`;
+    }).join('');
   }
   if (key === 'activitiesList') {
     container.className = 'activity-grid page-grid';

@@ -52,7 +52,22 @@ function renderList(container, key, lang) {
 
   if (key === 'publicationList') {
     container.className = 'publication-list';
-    container.innerHTML = items.map((item) => {
+    const sortedItems = [];
+    let group = [];
+    const flushGroup = () => {
+      sortedItems.push(...group.sort((a, b) => Number(b.year || 0) - Number(a.year || 0)));
+      group = [];
+    };
+    items.forEach((item) => {
+      if (item.type === 'section') {
+        flushGroup();
+        sortedItems.push(item);
+      } else {
+        group.push(item);
+      }
+    });
+    flushGroup();
+    container.innerHTML = sortedItems.map((item) => {
       if (item.type === 'section') return `<div class="publication-section-title reveal">${item.title}</div>`;
       const title = item.url ? `<a href="${item.url}" target="_blank" rel="noreferrer">${item.title}</a>` : item.title;
       return `<article class="reveal ${item.type === 'patent' ? 'patent-item' : ''}"><span>${item.year}</span><h3>${title}</h3><p>${item.meta}</p></article>`;
@@ -74,7 +89,7 @@ function applyLanguage(lang) {
   const data = siteContent[lang];
   document.documentElement.lang = lang;
   localStorage.setItem('iml-language', lang);
-  langToggle.textContent = lang === 'vi' ? 'EN' : 'VI';
+  langToggle.textContent = lang === 'vi' ? '🇺🇸 EN' : '🇻🇳 VI';
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     element.textContent = readPath(data, element.dataset.i18n) || '';
   });

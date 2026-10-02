@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-  <title id="title">Hướng nghiên cứu của Phòng Vật liệu Vô cơ</title>
-  <desc id="desc">Sơ đồ năm hướng nghiên cứu: chiết tách đất hiếm, thủy luyện, vật liệu nano môi trường, xử lý chất thải công nghiệp và đánh giá ô nhiễm.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14201f"/><stop offset="0.55" stop-color="#1f6f68"/><stop offset="1" stop-color="#c96f2c"/></linearGradient>
-    <radialGradient id="core" cx="50%" cy="45%" r="50%"><stop stop-color="#fffaf0"/><stop offset="0.38" stop-color="#c5d86d"/><stop offset="1" stop-color="#1f6f68"/></radialGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <rect width="1200" height="760" rx="48" fill="url(#bg)"/>
-  <g opacity="0.16" stroke="#fffaf0" stroke-width="1"><path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200"/><path d="M160 0v760M320 0v760M480 0v760M640 0v760M800 0v760M960 0v760"/></g>
-
-  <text x="60" y="76" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="40" font-weight="800" fill="#fffaf0">Hướng nghiên cứu</text>
-  <text x="60" y="112" font-family="Be Vietnam Pro, Arial, sans-serif" font-size="18" font-weight="500" fill="#fffaf0" opacity="0.9">đất hiếm • thủy luyện • môi trường • chất thải • phân tích</text>
-
-  <g fill="none" stroke="#fffaf0" stroke-width="5" opacity="0.55"><path d="M610 430 610 220M610 430 900 346M610 430 790 638M610 430 430 638M610 430 320 346"/></g>
-  <circle cx="610" cy="430" r="108" fill="url(#core)" filter="url(#glow)"/><circle cx="610" cy="430" r="44" fill="#fffaf0" opacity="0.92"/>
-
-  <g font-family="Be Vietnam Pro, Arial, sans-serif" text-anchor="middle">
-    <g><circle cx="610" cy="220" r="88" fill="#fffaf0"/><text x="610" y="211" font-size="24" font-weight="750" fill="#14201f">Chiết tách</text><text x="610" y="241" font-size="21" font-weight="600" fill="#5e6b68">đất hiếm</text></g>
-    <g><circle cx="900" cy="346" r="88" fill="#fffaf0"/><text x="900" y="353" font-size="23" font-weight="700" fill="#14201f">Thủy luyện</text></g>
-    <g><circle cx="790" cy="638" r="88" fill="#fffaf0"/><text x="790" y="629" font-size="21" font-weight="750" fill="#14201f">Vật liệu</text><text x="790" y="658" font-size="19" font-weight="600" fill="#5e6b68">nano</text></g>
-    <g><circle cx="430" cy="638" r="88" fill="#fffaf0"/><text x="430" y="629" font-size="22" font-weight="750" fill="#14201f">Xử lý</text><text x="430" y="658" font-size="19" font-weight="600" fill="#5e6b68">chất thải</text></g>
-    <g><circle cx="320" cy="346" r="88" fill="#fffaf0"/><text x="320" y="337" font-size="22" font-weight="750" fill="#14201f">Phân tích</text><text x="320" y="366" font-size="19" font-weight="600" fill="#5e6b68">hóa học</text></g>
-  </g>
-  <g fill="#c5d86d" opacity="0.9"><circle cx="518" cy="382" r="13"/><circle cx="703" cy="379" r="13"/><circle cx="565" cy="518" r="13"/><circle cx="660" cy="516" r="13"/></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+<title id="title">Hướng nghiên cứu</title><desc id="desc">Chiết tách đất hiếm — Tinh chế · ứng dụng; Thủy luyện — Phân tách · thu hồi kim loại; Vật liệu nano — Xử lý nước · không khí; Chất thải công nghiệp — Công nghệ xử lý thích ứng; Phân tích hóa học — Đánh giá ô nhiễm</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102b32"/><stop offset="1" stop-color="#174b49"/></linearGradient><radialGradient id="light"><stop stop-color="#7bddc8" stop-opacity=".19"/><stop offset="1" stop-color="#7bddc8" stop-opacity="0"/></radialGradient><linearGradient id="panel" x2="0.8" y2="1"><stop stop-color="#ffffff" stop-opacity=".11"/><stop offset="1" stop-color="#ffffff" stop-opacity=".035"/></linearGradient></defs>
+<rect width="1200" height="780" rx="32" fill="url(#bg)"/><ellipse cx="960.0" cy="156.0" rx="440" ry="400" fill="url(#light)"/>
+<g fill="none" stroke="#9bdaca" stroke-opacity=".09"><path d="M-80 720Q420.0 390 1280 620"/><path d="M-80 750Q420.0 420 1280 650"/></g>
+<g font-family="Arial, sans-serif"><text x="40" y="56" fill="#98c8c0" font-size="15" letter-spacing="2">PHÒNG VẬT LIỆU VÔ CƠ</text><text x="40" y="108" fill="#f3faf7" font-size="38" font-weight="700">Hướng nghiên cứu</text>
+<g transform="translate(40 156)"><rect y="5" width="352" height="268" rx="24" fill="#051b22" opacity=".2"/><rect width="352" height="268" rx="24" fill="url(#panel)" stroke="#83dccc" stroke-opacity=".26"/>
+<text x="327" y="33" text-anchor="end" fill="#83dccc" opacity=".65" font-size="14">01</text>
+<g transform="translate(176.0 82)"><circle r="53" fill="#83dccc" opacity=".085"/><circle r="44" fill="none" stroke="#83dccc" stroke-opacity=".16"/><g fill="none" stroke="#83dccc" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 8 -12-28 21-20 35 14 4 34Z"/><path d="M-12-28 4 34M21-20-30 8 35 14M-12-28 35 14"/></g></g>
+<text x="176.0" y="181" text-anchor="middle" fill="#f2f8f5" font-size="25" font-weight="700">Chiết tách đất hiếm</text><text x="176.0" y="215" text-anchor="middle" fill="#b7d2ce" font-size="16">Tinh chế · ứng dụng</text></g>
+<g transform="translate(424 156)"><rect y="5" width="352" height="268" rx="24" fill="#051b22" opacity=".2"/><rect width="352" height="268" rx="24" fill="url(#panel)" stroke="#8cc8f6" stroke-opacity=".26"/>
+<text x="327" y="33" text-anchor="end" fill="#8cc8f6" opacity=".65" font-size="14">02</text>
+<g transform="translate(176.0 82)"><circle r="53" fill="#8cc8f6" opacity=".085"/><circle r="44" fill="none" stroke="#8cc8f6" stroke-opacity=".16"/><g fill="none" stroke="#8cc8f6" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-26-28h28v22l20 31q3 9-8 9h-39q-10 0-7-9l20-31v-22M-29 12h47M-30-28h36"/><circle cx="-10" cy="22" r="3"/><path d="M30-28q-16 19 0 19t0-19Z"/></g></g>
+<text x="176.0" y="181" text-anchor="middle" fill="#f2f8f5" font-size="25" font-weight="700">Thủy luyện</text><text x="176.0" y="215" text-anchor="middle" fill="#b7d2ce" font-size="16">Phân tách · thu hồi kim loại</text></g>
+<g transform="translate(808 156)"><rect y="5" width="352" height="268" rx="24" fill="#051b22" opacity=".2"/><rect width="352" height="268" rx="24" fill="url(#panel)" stroke="#c5dc8a" stroke-opacity=".26"/>
+<text x="327" y="33" text-anchor="end" fill="#c5dc8a" opacity=".65" font-size="14">03</text>
+<g transform="translate(176.0 82)"><circle r="53" fill="#c5dc8a" opacity=".085"/><circle r="44" fill="none" stroke="#c5dc8a" stroke-opacity=".16"/><g fill="none" stroke="#c5dc8a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-30 18 0-25 31 18ZM-30 18h61M0-25v55"/><circle cx="0" cy="-25" r="9"/><circle cx="-30" cy="18" r="9"/><circle cx="31" cy="18" r="9"/><circle cx="0" cy="30" r="7"/></g></g>
+<text x="176.0" y="181" text-anchor="middle" fill="#f2f8f5" font-size="25" font-weight="700">Vật liệu nano</text><text x="176.0" y="215" text-anchor="middle" fill="#b7d2ce" font-size="16">Xử lý nước · không khí</text></g>
+<g transform="translate(232 456)"><rect y="5" width="352" height="268" rx="24" fill="#051b22" opacity=".2"/><rect width="352" height="268" rx="24" fill="url(#panel)" stroke="#ffc994" stroke-opacity=".26"/>
+<text x="327" y="33" text-anchor="end" fill="#ffc994" opacity=".65" font-size="14">04</text>
+<g transform="translate(176.0 82)"><circle r="53" fill="#ffc994" opacity=".085"/><circle r="44" fill="none" stroke="#ffc994" stroke-opacity=".16"/><g fill="none" stroke="#ffc994" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-30-8a33 33 0 0 1 57-13M27-35v16H11M30 8a33 33 0 0 1-57 13M-27 35V19h16"/><path d="M-13 15q-8-30 28-29 1 32-28 29ZM-13 15 7-6"/></g></g>
+<text x="176.0" y="181" text-anchor="middle" fill="#f2f8f5" font-size="25" font-weight="700">Chất thải công nghiệp</text><text x="176.0" y="215" text-anchor="middle" fill="#b7d2ce" font-size="16">Công nghệ xử lý thích ứng</text></g>
+<g transform="translate(616 456)"><rect y="5" width="352" height="268" rx="24" fill="#051b22" opacity=".2"/><rect width="352" height="268" rx="24" fill="url(#panel)" stroke="#c9b5f5" stroke-opacity=".26"/>
+<text x="327" y="33" text-anchor="end" fill="#c9b5f5" opacity=".65" font-size="14">05</text>
+<g transform="translate(176.0 82)"><circle r="53" fill="#c9b5f5" opacity=".085"/><circle r="44" fill="none" stroke="#c9b5f5" stroke-opacity=".16"/><g fill="none" stroke="#c9b5f5" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-34 29h68M-29 29v-58M-23 20l13-6 10-28 10 23 12-4 10 10"/><circle cx="21" cy="-21" r="13"/><path d="m30-11 12 13"/></g></g>
+<text x="176.0" y="181" text-anchor="middle" fill="#f2f8f5" font-size="25" font-weight="700">Phân tích hóa học</text><text x="176.0" y="215" text-anchor="middle" fill="#b7d2ce" font-size="16">Đánh giá ô nhiễm</text></g>
+</g></svg>

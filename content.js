@@ -82,31 +82,228 @@ const siteContent = {
       ['Hợp tác nghiên cứu', 'Phối hợp thực hiện đề tài, đào tạo học viên và sinh viên, thử nghiệm vật liệu, tư vấn công nghệ và công bố kết quả nghiên cứu.']
     ],
     peopleList: [
-      { section: 'Lãnh đạo phòng', members: [
-        { name: 'PGS.TS. Đào Ngọc Nhiệm', role: 'Trưởng phòng', focus: 'Chiết tách và tinh chế đất hiếm, thủy luyện thu hồi kim loại có giá trị, vật liệu nano oxit, vật liệu hấp phụ, xúc tác và quang xúc tác xử lý môi trường.', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/dao-ngoc-nhiem.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }
-      ] },
-      { section: 'Cán bộ nghiên cứu', members: [
-        { name: 'TS. Nguyễn Quang Bắc', role: 'Nghiên cứu viên chính', focus: 'Chiết tách đất hiếm, thủy luyện thu hồi kim loại có giá trị, vật liệu nano, xúc tác, quang xúc tác và vật liệu hấp phụ xử lý ô nhiễm.', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-        { name: 'TS. Phạm Ngọc Chức', role: 'Cán bộ nghiên cứu', focus: 'Vật liệu xốp và vật liệu nano cho hấp phụ, xúc tác/quang xúc tác và xử lý chất ô nhiễm trong nước.', email: 'chucpn@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chuc-Pham' } ] },
-        { name: 'TS. Nguyễn Trung Kiên', role: 'Cán bộ nghiên cứu', focus: 'Vật liệu nano vô cơ, quang xúc tác và xử lý các chất ô nhiễm khó phân hủy trong môi trường nước.', email: 'ntkien@ims.vast.ac.vn', photo: '../assets/nguyen-trung-kien.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0001-5213-3882' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Kien-Nguyen-120' } ] },
-        { name: 'ThS. Nguyễn Thị Hà Chi', role: 'Cán bộ nghiên cứu', focus: 'Vật liệu vô cơ chức năng, hấp phụ và quang xúc tác ứng dụng trong xử lý môi trường.', email: 'chinth@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chi-Nguyen-94' } ] },
-        { name: 'ThS. Nguyễn Đỗ Huy Tuấn', role: 'Cán bộ nghiên cứu', focus: '', email: 'tuanndh@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [] },
-        { name: 'ThS. Nguyễn Trần Dũng', role: 'Cán bộ nghiên cứu', focus: '', email: 'dungnt@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [] }
-      ] },
-      { section: 'Cộng tác viên', members: [
-        { name: 'TS. Dương Thị Lịm', role: 'Cộng tác viên', focus: 'Đánh giá ô nhiễm môi trường, vi nhựa, kim loại vết và rác biển; phân tích tổng hợp phục vụ nghiên cứu vật liệu và môi trường.', email: 'duonglim79@gmail.com', photo: '../assets/duong-thi-lim.jpg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Duong-Lim' } ] },
-        { name: 'TS. Nguyễn Vũ Ngọc Mai', role: 'Cộng tác viên', focus: 'Vi sinh ứng dụng, công nghệ sinh học vi sinh, enzyme và khai thác nguồn vi sinh vật cho thực phẩm, nông nghiệp và môi trường.', email: 'nguyenvungocmai@qnu.edu.vn', photo: '../assets/nguyen-vu-ngoc-mai.jpg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Nguyen-Mai-14?ev=brs_overview' } ] },
-        { name: 'TS. Lưu Thị Việt Hà', role: 'Cộng tác viên', focus: 'Vi sinh và công nghệ sinh học ứng dụng, enzyme vi sinh, hợp chất hoạt tính sinh học và ứng dụng trong môi trường - nông nghiệp.', email: 'luuthivietha@iuh.edu.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Luu-Thi-Viet-Ha-2?ev=brs_overview' } ] },
-        { name: 'GS. Hiroshi Inoue', role: 'Cộng tác viên', focus: 'Hóa sinh vi sinh, enzyme học, chuyển hóa sinh học và ứng dụng vi sinh vật trong công nghệ sinh học môi trường - công nghiệp.', email: 'inoue-chem@omu.ac.jp', photo: '../assets/hiroshi-inoue.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-3811-6853' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Hiroshi-Inoue' } ] },
-        { name: 'TS. Phạm Ngô Nghĩa', role: 'Cộng tác viên', focus: 'Công tác tại Đại học Witten/Herdecke, Đức.', photo: '../assets/pham-ngo-nghia.jpg', links: [] }
-      ] },
-      { section: 'Học viên và sinh viên', members: [
-        { name: 'Học viên và sinh viên', role: 'Học viên, sinh viên', focus: 'Tham gia các đề tài về đất hiếm, thủy luyện, vật liệu nano xử lý môi trường và xử lý chất thải.', photo: '../assets/research-fields.svg', links: [] }
-      ] },
-      { section: 'Cựu thành viên', members: [
-        { name: 'Viện sĩ Đặng Vũ Minh', role: 'Cựu thành viên', focus: 'Giáo sư, nhà hóa học Việt Nam, Tiến sĩ Khoa học, Viện sĩ nước ngoài của Viện Hàn lâm Khoa học Nga; nguyên Chủ tịch Viện Khoa học và Công nghệ Việt Nam; nguyên Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam; nguyên Chủ nhiệm Ủy ban Khoa học, Công nghệ và Môi trường của Quốc hội Việt Nam.', photo: '../assets/dang-vu-minh.jpg', links: [ { label: 'Wikipedia', url: 'https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_V%C5%A9_Minh' } ] },
-        { name: 'PGS.TS. Lưu Minh Đại', role: 'Nguyên Trưởng phòng Vật liệu Vô cơ', focus: 'Nguyên Trưởng phòng Vật liệu Vô cơ; tham gia nghiên cứu, đào tạo và xây dựng các hướng chuyên môn của Phòng.', photo: '../assets/luu-minh-dai.jpg', links: [] }
-      ] }
+      {
+        "section": "Lãnh đạo phòng",
+        "members": [
+          {
+            "name": "PGS.TS. Đào Ngọc Nhiệm",
+            "role": "Trưởng phòng",
+            "focus": "Chiết tách, tinh chế đất hiếm và thu hồi kim loại bằng thủy luyện; vật liệu nano oxit cho hấp phụ, xúc tác và quang xúc tác môi trường.",
+            "email": "nhiemdn@ims.vast.ac.vn",
+            "photo": "../assets/dao-ngoc-nhiem.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0002-7769-3701"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Ngoc-Dao-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Cán bộ nghiên cứu",
+        "members": [
+          {
+            "name": "TS. Nguyễn Quang Bắc",
+            "role": "Nghiên cứu viên chính",
+            "focus": "Chiết tách đất hiếm, thủy luyện thu hồi kim loại; vật liệu nano hấp phụ, xúc tác và quang xúc tác xử lý ô nhiễm.",
+            "email": "bacnq@ims.vast.ac.vn",
+            "photo": "../assets/quang-bac-nguyen.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0003-2663-9710"
+              },
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf"
+              }
+            ]
+          },
+          {
+            "name": "TS. Phạm Ngọc Chức",
+            "role": "Cán bộ nghiên cứu",
+            "focus": "Vật liệu xốp và nano cho hấp phụ, xúc tác và quang xúc tác xử lý ô nhiễm nước.",
+            "email": "chucpn@ims.vast.ac.vn",
+            "photo": "../assets/pham-ngoc-chuc.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Chuc-Pham"
+              }
+            ]
+          },
+          {
+            "name": "TS. Nguyễn Trung Kiên",
+            "role": "Cán bộ nghiên cứu",
+            "focus": "Vật liệu nano vô cơ và quang xúc tác xử lý chất ô nhiễm khó phân hủy trong nước.",
+            "email": "ntkien@ims.vast.ac.vn",
+            "photo": "../assets/nguyen-trung-kien.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0001-5213-3882"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Kien-Nguyen-120"
+              }
+            ]
+          },
+          {
+            "name": "ThS. Nguyễn Thị Hà Chi",
+            "role": "Cán bộ nghiên cứu",
+            "focus": "Vật liệu vô cơ chức năng cho hấp phụ và quang xúc tác xử lý môi trường.",
+            "email": "chinth@ims.vast.ac.vn",
+            "photo": "../assets/nguyen-thi-ha-chi.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Chi-Nguyen-94"
+              }
+            ]
+          },
+          {
+            "name": "ThS. Đỗ Nguyễn Huy Tuấn",
+            "role": "Cán bộ nghiên cứu",
+            "focus": "",
+            "email": "tuanndh@ims.vast.ac.vn",
+            "photo": "",
+            "links": [],
+            "employment": "Biên chế"
+          },
+          {
+            "name": "ThS. Nguyễn Trần Dũng",
+            "role": "Cán bộ nghiên cứu",
+            "focus": "",
+            "email": "dungnt@ims.vast.ac.vn",
+            "photo": "",
+            "links": [],
+            "employment": "Biên chế"
+          },
+          {
+            "name": "ThS. Hà Thị Hằng Thục",
+            "role": "Cán bộ nghiên cứu",
+            "employment": "Hợp đồng",
+            "focus": "",
+            "photo": "../assets/ha-thi-hang-thuc.jpg",
+            "links": []
+          }
+        ]
+      },
+      {
+        "section": "Cộng tác viên",
+        "members": [
+          {
+            "name": "TS. Dương Thị Lịm",
+            "role": "Cộng tác viên",
+            "focus": "Đánh giá ô nhiễm do vi nhựa, kim loại vết và rác biển; phân tích phục vụ nghiên cứu vật liệu và môi trường.",
+            "email": "duonglim79@gmail.com",
+            "photo": "../assets/duong-thi-lim.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Duong-Lim"
+              }
+            ]
+          },
+          {
+            "name": "TS. Nguyễn Vũ Ngọc Mai",
+            "role": "Cộng tác viên",
+            "focus": "Vi sinh ứng dụng, enzyme và nguồn vi sinh vật phục vụ thực phẩm, nông nghiệp và môi trường.",
+            "email": "nguyenvungocmai@qnu.edu.vn",
+            "photo": "../assets/nguyen-vu-ngoc-mai.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Nguyen-Mai-14?ev=brs_overview"
+              }
+            ]
+          },
+          {
+            "name": "TS. Lưu Thị Việt Hà",
+            "role": "Cộng tác viên",
+            "focus": "Enzyme vi sinh, hợp chất hoạt tính sinh học và công nghệ sinh học ứng dụng trong môi trường, nông nghiệp.",
+            "email": "luuthivietha@iuh.edu.vn",
+            "photo": "",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Luu-Thi-Viet-Ha-2?ev=brs_overview"
+              }
+            ]
+          },
+          {
+            "name": "GS. Hiroshi Inoue",
+            "role": "Cộng tác viên",
+            "focus": "Hóa sinh vi sinh, enzyme và chuyển hóa sinh học ứng dụng trong môi trường và công nghiệp.",
+            "email": "inoue-chem@omu.ac.jp",
+            "photo": "../assets/hiroshi-inoue.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0003-3811-6853"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Hiroshi-Inoue"
+              }
+            ]
+          },
+          {
+            "name": "TS. Phạm Ngô Nghĩa",
+            "role": "Cộng tác viên",
+            "focus": "",
+            "photo": "../assets/pham-ngo-nghia.jpg",
+            "links": [],
+            "affiliation": "Đại học Witten/Herdecke, Đức"
+          }
+        ]
+      },
+      {
+        "section": "Học viên và sinh viên",
+        "members": [
+          {
+            "name": "Học viên và sinh viên",
+            "role": "Học viên, sinh viên",
+            "focus": "Tham gia nghiên cứu đất hiếm, thủy luyện, vật liệu nano môi trường và xử lý chất thải.",
+            "photo": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "section": "Cựu thành viên",
+        "members": [
+          {
+            "name": "Viện sĩ Đặng Vũ Minh",
+            "role": "Cựu thành viên",
+            "focus": "Nhà hóa học, Viện sĩ nước ngoài Viện Hàn lâm Khoa học Nga; nguyên Chủ tịch Viện Khoa học và Công nghệ Việt Nam.",
+            "photo": "../assets/dang-vu-minh.jpg",
+            "links": [
+              {
+                "label": "Wikipedia",
+                "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_V%C5%A9_Minh"
+              }
+            ]
+          },
+          {
+            "name": "PGS.TS. Lưu Minh Đại",
+            "role": "Nguyên Trưởng phòng Vật liệu Vô cơ",
+            "focus": "Đóng góp cho nghiên cứu, đào tạo và phát triển các hướng chuyên môn của Phòng.",
+            "photo": "../assets/luu-minh-dai.jpg",
+            "links": []
+          }
+        ]
+      }
     ],
     publicationList: [
       { type: 'section', title: 'Bài báo tiêu biểu' },
@@ -166,31 +363,228 @@ const siteContent = {
       ['Collaboration', 'Materials consultation, joint projects, student training, industrial links, and scientific publications.']
     ],
     peopleList: [
-      { section: 'Head of the laboratory', members: [
-        { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', role: 'Head of Laboratory', focus: 'Rare-earth extraction and purification, hydrometallurgy of valuable metals, oxide nanomaterials, adsorption, and environmental catalysis/photocatalysis.', email: 'nhiemdn@ims.vast.ac.vn', photo: '../assets/dao-ngoc-nhiem.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }
-      ] },
-      { section: 'Researchers', members: [
-        { name: 'Dr. Quang-Bac Nguyen', role: 'Senior Researcher', focus: 'Rare-earth extraction, hydrometallurgy of valuable metals, nanomaterials, catalysis/photocatalysis, and adsorption for pollution treatment.', email: 'bacnq@ims.vast.ac.vn', photo: '../assets/quang-bac-nguyen.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-2663-9710' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf' } ] },
-        { name: 'Dr. Pham Ngoc Chuc', role: 'Research staff', focus: 'Porous and nanoscale materials for adsorption, catalysis/photocatalysis, and removal of water pollutants.', email: 'chucpn@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chuc-Pham' } ] },
-        { name: 'Dr. Nguyen Trung Kien', role: 'Research staff', focus: 'Inorganic nanomaterials, photocatalysis, and treatment of persistent pollutants in water environments.', email: 'ntkien@ims.vast.ac.vn', photo: '../assets/nguyen-trung-kien.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0001-5213-3882' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Kien-Nguyen-120' } ] },
-        { name: 'MSc. Nguyen Thi Ha Chi', role: 'Research staff', focus: 'Functional inorganic materials, adsorption, and photocatalysis for environmental remediation.', email: 'chinth@ims.vast.ac.vn', photo: '../assets/rare-earth-catalyst.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Chi-Nguyen-94' } ] },
-        { name: 'MSc. Nguyen Do Huy Tuan', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'tuanndh@ims.vast.ac.vn', photo: '../assets/environment-catalysis.svg', links: [] },
-        { name: 'MSc. Nguyen Tran Dung', role: 'Research staff', focus: 'Office 408, Building B2. Research details will be updated.', email: 'dungnt@ims.vast.ac.vn', photo: '../assets/research-fields.svg', links: [] }
-      ] },
-      { section: 'Collaborators', members: [
-        { name: 'Dr. Duong Thi Lim', role: 'Collaborator', focus: 'Environmental pollution assessment, microplastics, trace metals, marine litter, and analytical services for materials and environmental studies.', email: 'duonglim79@gmail.com', photo: '../assets/duong-thi-lim.jpg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Duong-Lim' } ] },
-        { name: 'Dr. Nguyen Vu Ngoc Mai', role: 'Collaborator', focus: 'Applied microbiology, microbial biotechnology, enzymes, and microbial resources for food, agriculture, and environmental applications.', email: 'nguyenvungocmai@qnu.edu.vn', photo: '../assets/nguyen-vu-ngoc-mai.jpg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Nguyen-Mai-14?ev=brs_overview' } ] },
-        { name: 'Dr. Luu Thi Viet Ha', role: 'Collaborator', focus: 'Applied microbiology and biotechnology, microbial enzymes, bioactive compounds, and environmental-agricultural applications.', email: 'luuthivietha@iuh.edu.vn', photo: '../assets/environment-catalysis.svg', links: [ { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Luu-Thi-Viet-Ha-2?ev=brs_overview' } ] },
-        { name: 'Prof. Hiroshi Inoue', role: 'Collaborator', focus: 'Microbial biochemistry, enzymology, bioconversion, and environmental-industrial biotechnology applications.', email: 'inoue-chem@omu.ac.jp', photo: '../assets/hiroshi-inoue.jpg', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0003-3811-6853' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Hiroshi-Inoue' } ] },
-        { name: 'Dr. Pham Ngo Nghia', role: 'Collaborator', focus: 'Witten/Herdecke University, Germany', photo: '../assets/pham-ngo-nghia.jpg', links: [] }
-      ] },
-      { section: 'Students', members: [
-        { name: 'Graduate Students', role: 'Students', focus: 'Rare earths, hydrometallurgy, environmental nanomaterials, and waste treatment projects', photo: '../assets/research-fields.svg', links: [] }
-      ] },
-      { section: 'Former Members', members: [
-        { name: 'Academician Dang Vu Minh', role: 'Former member', focus: 'Vietnamese professor and chemist, Doctor of Science, foreign member of the Russian Academy of Sciences; former President of the Vietnam Academy of Science and Technology; former member of the Central Committee of the Communist Party of Vietnam; former Chair of the National Assembly Committee on Science, Technology and Environment.', photo: '../assets/dang-vu-minh.jpg', links: [ { label: 'Wikipedia', url: 'https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_V%C5%A9_Minh' } ] },
-        { name: 'Assoc. Prof. Dr. Luu Minh Dai', role: 'Former Head of the Inorganic Materials Laboratory', focus: 'A scientist associated with the Inorganic Materials Laboratory, formerly serving as Head of Laboratory and contributing to its research direction, training activities, and professional development.', photo: '../assets/luu-minh-dai.jpg', links: [] }
-      ] }
+      {
+        "section": "Head of the laboratory",
+        "members": [
+          {
+            "name": "Assoc. Prof. Dr. Dao Ngoc Nhiem",
+            "role": "Head of Laboratory",
+            "focus": "Rare-earth separation and purification; hydrometallurgical metal recovery; oxide nanomaterials for adsorption and environmental catalysis.",
+            "email": "nhiemdn@ims.vast.ac.vn",
+            "photo": "../assets/dao-ngoc-nhiem.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0002-7769-3701"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Ngoc-Dao-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section": "Researchers",
+        "members": [
+          {
+            "name": "Dr. Quang-Bac Nguyen",
+            "role": "Senior Researcher",
+            "focus": "Rare-earth extraction and metal recovery; nanomaterials for adsorption, catalysis and photocatalytic pollution treatment.",
+            "email": "bacnq@ims.vast.ac.vn",
+            "photo": "../assets/quang-bac-nguyen.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0003-2663-9710"
+              },
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=WQXpT18AAAAJ&hl=en"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Quang-Bac-Nguyen?ev=hdr_xprf"
+              }
+            ]
+          },
+          {
+            "name": "Dr. Pham Ngoc Chuc",
+            "role": "Research staff",
+            "focus": "Porous and nanoscale materials for adsorption, catalysis and photocatalytic water treatment.",
+            "email": "chucpn@ims.vast.ac.vn",
+            "photo": "../assets/pham-ngoc-chuc.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Chuc-Pham"
+              }
+            ]
+          },
+          {
+            "name": "Dr. Nguyen Trung Kien",
+            "role": "Research staff",
+            "focus": "Inorganic nanomaterials and photocatalysis for removing persistent water pollutants.",
+            "email": "ntkien@ims.vast.ac.vn",
+            "photo": "../assets/nguyen-trung-kien.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0001-5213-3882"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Kien-Nguyen-120"
+              }
+            ]
+          },
+          {
+            "name": "MSc. Nguyen Thi Ha Chi",
+            "role": "Research staff",
+            "focus": "Functional inorganic materials for adsorption and photocatalytic environmental remediation.",
+            "email": "chinth@ims.vast.ac.vn",
+            "photo": "../assets/nguyen-thi-ha-chi.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Chi-Nguyen-94"
+              }
+            ]
+          },
+          {
+            "name": "MSc. Do Nguyen Huy Tuan",
+            "role": "Research staff",
+            "focus": "",
+            "email": "tuanndh@ims.vast.ac.vn",
+            "photo": "",
+            "links": [],
+            "employment": "Permanent staff"
+          },
+          {
+            "name": "MSc. Nguyen Tran Dung",
+            "role": "Research staff",
+            "focus": "",
+            "email": "dungnt@ims.vast.ac.vn",
+            "photo": "",
+            "links": [],
+            "employment": "Permanent staff"
+          },
+          {
+            "name": "MSc. Ha Thi Hang Thuc",
+            "role": "Research staff",
+            "employment": "Contract staff",
+            "focus": "",
+            "photo": "../assets/ha-thi-hang-thuc.jpg",
+            "links": []
+          }
+        ]
+      },
+      {
+        "section": "Collaborators",
+        "members": [
+          {
+            "name": "Dr. Duong Thi Lim",
+            "role": "Collaborator",
+            "focus": "Microplastics, trace metals and marine litter assessment; analysis for materials and environmental research.",
+            "email": "duonglim79@gmail.com",
+            "photo": "../assets/duong-thi-lim.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Duong-Lim"
+              }
+            ]
+          },
+          {
+            "name": "Dr. Nguyen Vu Ngoc Mai",
+            "role": "Collaborator",
+            "focus": "Applied microbiology, enzymes and microbial resources for food, agriculture and environmental applications.",
+            "email": "nguyenvungocmai@qnu.edu.vn",
+            "photo": "../assets/nguyen-vu-ngoc-mai.jpg",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Nguyen-Mai-14?ev=brs_overview"
+              }
+            ]
+          },
+          {
+            "name": "Dr. Luu Thi Viet Ha",
+            "role": "Collaborator",
+            "focus": "Microbial enzymes, bioactive compounds and biotechnology for environmental and agricultural applications.",
+            "email": "luuthivietha@iuh.edu.vn",
+            "photo": "",
+            "links": [
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Luu-Thi-Viet-Ha-2?ev=brs_overview"
+              }
+            ]
+          },
+          {
+            "name": "Prof. Hiroshi Inoue",
+            "role": "Collaborator",
+            "focus": "Microbial biochemistry, enzymology and bioconversion for environmental and industrial applications.",
+            "email": "inoue-chem@omu.ac.jp",
+            "photo": "../assets/hiroshi-inoue.jpg",
+            "links": [
+              {
+                "label": "ORCID",
+                "url": "https://orcid.org/0000-0003-3811-6853"
+              },
+              {
+                "label": "ResearchGate",
+                "url": "https://www.researchgate.net/profile/Hiroshi-Inoue"
+              }
+            ]
+          },
+          {
+            "name": "Dr. Pham Ngo Nghia",
+            "role": "Collaborator",
+            "focus": "",
+            "photo": "../assets/pham-ngo-nghia.jpg",
+            "links": [],
+            "affiliation": "Witten/Herdecke University, Germany"
+          }
+        ]
+      },
+      {
+        "section": "Students",
+        "members": [
+          {
+            "name": "Graduate Students",
+            "role": "Students",
+            "focus": "Research projects in rare earths, hydrometallurgy, environmental nanomaterials and waste treatment.",
+            "photo": "",
+            "links": []
+          }
+        ]
+      },
+      {
+        "section": "Former Members",
+        "members": [
+          {
+            "name": "Academician Dang Vu Minh",
+            "role": "Former member",
+            "focus": "Chemist and foreign member of the Russian Academy of Sciences; former President of the Vietnam Academy of Science and Technology.",
+            "photo": "../assets/dang-vu-minh.jpg",
+            "links": [
+              {
+                "label": "Wikipedia",
+                "url": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_V%C5%A9_Minh"
+              }
+            ]
+          },
+          {
+            "name": "Assoc. Prof. Dr. Luu Minh Dai",
+            "role": "Former Head of the Inorganic Materials Laboratory",
+            "focus": "Contributions to the laboratory’s research directions, training and scientific development.",
+            "photo": "../assets/luu-minh-dai.jpg",
+            "links": []
+          }
+        ]
+      }
     ],
     publicationList: [
       { type: 'section', title: 'Selected Papers' },

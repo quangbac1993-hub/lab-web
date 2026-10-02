@@ -48,10 +48,10 @@ function renderList(container, key, lang) {
     container.className = 'people-sections';
     const renderPerson = (item) => {
       const person = Array.isArray(item) ? { name: item[0], role: item[1], focus: item[2] } : item;
-      const initials = person.name.split(' ').map((part) => part[0]).join('').slice(0, 2);
+      const initials = person.name.trim().split(/\s+/).slice(-2).map((part) => part[0]).join('');
       const links = (person.links || []).map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${link.label}</a>`).join('');
       const avatar = person.photo ? `<img class="avatar-photo" src="${person.photo}" alt="${person.name}" />` : `<div class="avatar">${initials}</div>`;
-      return `<article class="person reveal">${avatar}<h3>${person.name}</h3><p class="person-role">${person.role}</p><p>${formatScientificText(person.focus)}</p>${person.email ? `<a class="person-email" href="mailto:${person.email}">${person.email}</a>` : ''}<div class="profile-links">${links}</div></article>`;
+      return `<article class="person reveal">${avatar}<h3>${person.name}</h3><p class="person-role">${person.role}</p>${person.employment ? `<span class="employment-badge">${person.employment}</span>` : ''}${person.affiliation ? `<p class="person-affiliation">${person.affiliation}</p>` : ''}${person.focus ? `<p class="person-focus">${formatScientificText(person.focus)}</p>` : ''}${person.email ? `<a class="person-email" href="mailto:${person.email}">${person.email}</a>` : ''}<div class="profile-links">${links}</div></article>`;
     };
     container.innerHTML = items.map((group) => {
       if (!group.members) return renderPerson(group);
@@ -110,7 +110,8 @@ function applyLanguage(lang) {
   if (brand) brand.setAttribute('aria-label', lang === 'vi' ? 'Trang chủ Phòng Vật liệu Vô cơ' : 'Inorganic Materials Laboratory home');
   const heroArt = document.querySelector('.hero-art');
   if (heroArt) {
-    heroArt.src = lang === 'vi' ? 'assets/research-fields.svg?v=2' : 'assets/research-fields-en.svg?v=2';
+    heroArt.src = lang === 'vi' ? 'assets/research-fields.svg?v=3' : 'assets/research-fields-en.svg?v=3';
+    document.querySelector('[data-hero-mobile]').srcset = lang === 'vi' ? 'assets/research-fields-mobile.svg?v=3' : 'assets/research-fields-en-mobile.svg?v=3';
     heroArt.alt = lang === 'vi' ? 'Sơ đồ năm hướng nghiên cứu của Phòng Vật liệu Vô cơ' : 'Five research directions of the Inorganic Materials Laboratory';
   }
   const pageTitles = { home: data.nav.home, research: data.nav.research, people: data.nav.people, publications: data.nav.publications, activities: data.nav.activities, contact: data.nav.contact, 'research-detail': data.research.title };

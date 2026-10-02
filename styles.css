@@ -38,3 +38,19 @@ sub,sup{font-size:.72em;line-height:0;position:relative;vertical-align:baseline}
 .people-sections{display:grid;gap:54px}.people-section{display:grid;gap:18px}.people-section-heading{display:flex;align-items:center;gap:18px;font-family:"Be Vietnam Pro",Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:var(--steel)}.people-section-heading:after{content:"";height:1px;flex:1;background:linear-gradient(90deg,rgba(31,111,104,.35),transparent)}.people-section-heading span{display:inline-flex;padding:10px 14px;border-radius:999px;background:rgba(31,111,104,.1);border:1px solid rgba(31,111,104,.18)}.people-section .people-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.people-section:first-child .people-grid{grid-template-columns:minmax(260px,420px)}
 
 .map-link{display:inline-flex;align-items:center;justify-content:center;margin:0 0 18px;padding:10px 14px;border-radius:999px;background:var(--lime);color:var(--steel);font-weight:800}.map-link:hover{filter:brightness(.96)}
+
+/* Research illustration: native responsive art, no scan overlay. */
+body[data-page="home"] .hero-panel{min-height:0;background:#102b32;padding:0}
+body[data-page="home"] .hero-panel:after{content:none}
+.research-art{display:block;width:100%}
+body[data-page="home"] .hero-art{display:block;position:static;width:100%;height:auto;inset:auto;border-radius:0;mix-blend-mode:normal;opacity:1;background:none}
+@media(max-width:600px){body[data-page="home"] .hero-art{aspect-ratio:640/1160}}
+.person h3{line-height:1.45;text-wrap:balance}
+.person-focus{line-height:1.75;color:var(--muted)}
+.person-employment{display:inline-block;justify-self:start;margin:0 0 12px;padding:5px 10px;border-radius:999px;background:rgba(31,111,104,.09);color:var(--mineral);font-size:.8rem;font-weight:600}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* Keep short biographies readable without truncating academic content. */
+.person-focus,.person-affiliation{font-size:.94rem;line-height:1.65;color:var(--muted)}
+.employment-badge{display:inline-block;width:fit-content;padding:4px 10px;margin:0 0 12px;border:1px solid var(--line);border-radius:999px;font-size:.76rem;font-weight:600;color:var(--mineral)}
+.person .avatar{background:linear-gradient(135deg,#e4f1eb,#e2ebf3);color:#24574f}

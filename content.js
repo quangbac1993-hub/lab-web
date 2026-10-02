@@ -47,7 +47,7 @@ const siteContent = {
     activities: {
       title: 'Hoạt động',
       lead: 'Hội thảo khoa học, hợp tác nghiên cứu và hoạt động đào tạo của Phòng.',
-      intro: 'Thông tin về seminar, chương trình hợp tác, hướng dẫn thực hành và các hoạt động chuyên môn.'
+      intro: 'Các hoạt động được lưu theo năm, từ mới nhất đến trước đó.'
     },
     contact: {
       title: 'Liên hệ',
@@ -286,7 +286,7 @@ const siteContent = {
           {
             "name": "Viện sĩ Đặng Vũ Minh",
             "role": "Cựu thành viên",
-            "focus": "Nhà hóa học, Viện sĩ nước ngoài Viện Hàn lâm Khoa học Nga; nguyên Chủ tịch Viện Khoa học và Công nghệ Việt Nam.",
+            "focus": "Giáo sư, nhà hóa học Việt Nam, Tiến sĩ Khoa học, Viện sĩ nước ngoài của Viện Hàn lâm Khoa học Nga; nguyên Chủ tịch Viện Khoa học và Công nghệ Việt Nam; nguyên Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam; nguyên Chủ nhiệm Ủy ban Khoa học, Công nghệ và Môi trường của Quốc hội Việt Nam.",
             "photo": "../assets/dang-vu-minh.jpg",
             "links": [
               {
@@ -298,7 +298,7 @@ const siteContent = {
           {
             "name": "PGS.TS. Lưu Minh Đại",
             "role": "Nguyên Trưởng phòng Vật liệu Vô cơ",
-            "focus": "Đóng góp cho nghiên cứu, đào tạo và phát triển các hướng chuyên môn của Phòng.",
+            "focus": "Nguyên Trưởng phòng Vật liệu Vô cơ; tham gia nghiên cứu, đào tạo và xây dựng các hướng chuyên môn của Phòng.",
             "photo": "../assets/luu-minh-dai.jpg",
             "links": []
           }
@@ -306,31 +306,158 @@ const siteContent = {
       }
     ],
     publicationList: [
-      { type: 'section', title: 'Bài báo tiêu biểu' },
-      { year: '2026', title: 'Decoration of MnFe2O4 nanoparticles on activated carbon as recoverable photocatalyst for perfluorooctanesulfonic acid degradation in water', url: 'https://doi.org/10.1039/d6ra00405a', meta: 'RSC Advances, 16(18). Q1, Impact Factor = 3.9.' },
-      { year: '2026', title: 'Microwave-assisted synthesis of recoverable Fe2O3/Ce-doped ZnO/graphene oxide ternary photocatalyst for efficient solar-light-driven mineralization of organic dye in water', url: 'https://doi.org/10.1016/j.inoche.2026.116329', meta: 'Inorganic Chemistry Communications, p.116329. Q1, Impact Factor = 5.4.' },
-      { year: '2026', title: 'Relationship between microplastics and heavy metals in Tam Giang-Cau Hai lagoon sediments', url: 'https://doi.org/10.1016/j.marpolbul.2025.119106', meta: 'Marine Pollution Bulletin, 224. Q1, Impact Factor = 4.9.' },
-      { year: '2025', title: 'Microwave-assisted synthesis of self-assembled C-doped-ZnO/g-C3N4 heterojunction catalysts for effective photodegradation of ofloxacin antibiotic', url: 'https://doi.org/10.1039/d5na00060b', meta: 'Nanoscale Advances, 7(10). Q1, Impact Factor = 4.7.' },
-      { year: '2025', title: 'Synthesis of monoclinic clinobisvanite BiVO4 for effective visible-light degradation of antibiotics in water: Photocatalytic performance, reaction kinetics, and mechanism', url: 'https://doi.org/10.1016/j.powtec.2025.120650', meta: 'Powder Technology, 453. Q1, Impact Factor = 5.18.' },
-      { year: '2024', title: 'Enhanced photocatalytic performance of ZnO under visible light by co-doping of Ta and C using hydrothermal method', url: 'https://doi.org/10.1039/d4ra00579a', meta: 'RSC Advances, 14(18). Q1, Impact Factor = 3.9.' },
-      { year: '2023', title: 'Microplastics and trace metals in river sediment: Prevalence and correlation with multiple factors', url: 'https://doi.org/10.1016/j.scitotenv.2023.165145', meta: 'Science of The Total Environment. Q1, Impact Factor = 9.8.' },
-      { year: '2025', title: 'Abundance, distribution, and seasonal variation of marine litter on the beaches of central Vietnam', url: 'https://doi.org/10.1016/j.marpolbul.2025.118046', meta: 'Marine Pollution Bulletin, 216. Q1, Impact Factor = 4.9.' },
-      { year: '2024', title: 'Efficient photocatalytic remediation of persistent organic pollutants using magnetically recoverable spinel manganese ferrite nanoparticles supported on activated carbon', url: 'https://doi.org/10.1016/j.materresbull.2024.112913', meta: 'Materials Research Bulletin, 178, p.112913. Impact Factor = 5.6.' },
-      { year: '2023', title: 'Ethylenediamine-entrapped defective UiO-66(Zr) frameworks for improved CO2 adsorption and selectivity', url: 'https://doi.org/10.1016/j.inoche.2023.111476', meta: 'Inorganic Chemistry Communications, 158. Q1, Impact Factor = 3.8.' },
-      { year: '2023', title: 'One-step hydrothermal preparation of Ta-doped ZnO nanorods for improving decolorization efficiency under visible light', url: 'https://doi.org/10.1039/d2ra07655a', meta: 'RSC Advances, 13(8), pp.5208-5218. Q1, Impact Factor = 4.0.' },
-      { year: '2023', title: 'One-pot hydrothermal preparation of capsule-like nanocomposites of C/Ce-co-doped ZnO supported on graphene to enhance photodegradation', url: 'https://doi.org/10.1039/d2nj04937f', meta: 'New Journal of Chemistry. Q1, Impact Factor = 3.9.' },
-      { type: 'section', title: 'Bằng sáng chế tiêu biểu' },
-      { type: 'patent', year: '2025', title: 'Phương pháp chế biến khoáng vật xenotime', meta: 'Bằng độc quyền sáng chế số 44433.' },
-      { type: 'patent', year: '2025', title: 'Quy trình sản xuất phân bón lá trên cơ sở phức chất đất hiếm bổ sung vi lượng nano', meta: 'Bằng độc quyền sáng chế số 52319.' },
-      { type: 'patent', year: '2024', title: 'Quy trình chế biến quặng monazit', meta: 'Bằng độc quyền sáng chế số 41857.' },
-      { type: 'patent', year: '2023', title: 'Phương pháp sản xuất phân bón hữu cơ vi lượng chứa Cu, Zn, Mo', meta: 'Bằng độc quyền sáng chế số 34960.' },
-      { type: 'patent', year: '2019', title: 'Quy trình thu hồi antimon từ các nguồn chứa antimon', meta: 'Bằng độc quyền sáng chế số 23004.' }
-    ],
+  {
+    "type": "section",
+    "title": "Bài báo tiêu biểu"
+  },
+  {
+    "year": "2026",
+    "title": "Elucidating Visible‐Light Photocatalytic Degradation of Organophosphorus Residues Over Reduced Graphene Oxide/Iron‐Manganese Mixed Oxides Composite",
+    "url": "https://doi.org/10.1002/slct.74435",
+    "meta": "ChemistrySelect, 11(35), e74435."
+  },
+  {
+    "year": "2026",
+    "title": "Application of Ce‐Based Nanomaterial in Polyurethane for Weather Resistance: A Review",
+    "url": "https://doi.org/10.1002/vjch.70151",
+    "meta": "Vietnam Journal of Chemistry, e70151."
+  },
+  {
+    "year": "2026",
+    "title": "Diversity and characteristics of microplastics in bivalves from Tam Giang Lagoon",
+    "url": "https://doi.org/10.1007/s10661-026-15000-1",
+    "meta": "Environmental Monitoring and Assessment, 198(2), 170."
+  },
+  {
+    "year": "2026",
+    "title": "Decoration of MnFe2O4 nanoparticles on activated carbon as recoverable photocatalyst for perfluorooctanesulfonic acid degradation in water",
+    "url": "https://doi.org/10.1039/d6ra00405a",
+    "meta": "RSC Advances, 16(18). Q1, Impact Factor = 3.9."
+  },
+  {
+    "year": "2026",
+    "title": "Microwave-assisted synthesis of recoverable Fe2O3/Ce-doped ZnO/graphene oxide ternary photocatalyst for efficient solar-light-driven mineralization of organic dye in water",
+    "url": "https://doi.org/10.1016/j.inoche.2026.116329",
+    "meta": "Inorganic Chemistry Communications, p.116329. Q1, Impact Factor = 5.4."
+  },
+  {
+    "year": "2026",
+    "title": "Relationship between microplastics and heavy metals in Tam Giang-Cau Hai lagoon sediments",
+    "url": "https://doi.org/10.1016/j.marpolbul.2025.119106",
+    "meta": "Marine Pollution Bulletin, 224. Q1, Impact Factor = 4.9."
+  },
+  {
+    "year": "2025",
+    "title": "Geopolymer materials made from fly ash, blast furnace, and incinerator slags in Vietnam: a study on their mechanical and physical properties",
+    "url": "https://doi.org/10.1088/2053-1591/adf495",
+    "meta": "Materials Research Express, 12(8), 085002."
+  },
+  {
+    "year": "2025",
+    "title": "Microwave-assisted synthesis of self-assembled C-doped-ZnO/g-C3N4 heterojunction catalysts for effective photodegradation of ofloxacin antibiotic",
+    "url": "https://doi.org/10.1039/d5na00060b",
+    "meta": "Nanoscale Advances, 7(10). Q1, Impact Factor = 4.7."
+  },
+  {
+    "year": "2025",
+    "title": "Synthesis of monoclinic clinobisvanite BiVO4 for effective visible-light degradation of antibiotics in water: Photocatalytic performance, reaction kinetics, and mechanism",
+    "url": "https://doi.org/10.1016/j.powtec.2025.120650",
+    "meta": "Powder Technology, 453. Q1, Impact Factor = 5.18."
+  },
+  {
+    "year": "2025",
+    "title": "Abundance, distribution, and seasonal variation of marine litter on the beaches of central Vietnam",
+    "url": "https://doi.org/10.1016/j.marpolbul.2025.118046",
+    "meta": "Marine Pollution Bulletin, 216. Q1, Impact Factor = 4.9."
+  },
+  {
+    "year": "2024",
+    "title": "Enhanced photocatalytic performance of ZnO under visible light by co-doping of Ta and C using hydrothermal method",
+    "url": "https://doi.org/10.1039/d4ra00579a",
+    "meta": "RSC Advances, 14(18). Q1, Impact Factor = 3.9."
+  },
+  {
+    "year": "2024",
+    "title": "Efficient photocatalytic remediation of persistent organic pollutants using magnetically recoverable spinel manganese ferrite nanoparticles supported on activated carbon",
+    "url": "https://doi.org/10.1016/j.materresbull.2024.112913",
+    "meta": "Materials Research Bulletin, 178, p.112913. Impact Factor = 5.6."
+  },
+  {
+    "year": "2023",
+    "title": "Microplastics and trace metals in river sediment: Prevalence and correlation with multiple factors",
+    "url": "https://doi.org/10.1016/j.scitotenv.2023.165145",
+    "meta": "Science of The Total Environment. Q1, Impact Factor = 9.8."
+  },
+  {
+    "year": "2023",
+    "title": "Ethylenediamine-entrapped defective UiO-66(Zr) frameworks for improved CO2 adsorption and selectivity",
+    "url": "https://doi.org/10.1016/j.inoche.2023.111476",
+    "meta": "Inorganic Chemistry Communications, 158. Q1, Impact Factor = 3.8."
+  },
+  {
+    "year": "2023",
+    "title": "One-step hydrothermal preparation of Ta-doped ZnO nanorods for improving decolorization efficiency under visible light",
+    "url": "https://doi.org/10.1039/d2ra07655a",
+    "meta": "RSC Advances, 13(8), pp.5208-5218. Q1, Impact Factor = 4.0."
+  },
+  {
+    "year": "2023",
+    "title": "One-pot hydrothermal preparation of capsule-like nanocomposites of C/Ce-co-doped ZnO supported on graphene to enhance photodegradation",
+    "url": "https://doi.org/10.1039/d2nj04937f",
+    "meta": "New Journal of Chemistry. Q1, Impact Factor = 3.9."
+  },
+  {
+    "type": "section",
+    "title": "Bằng sáng chế tiêu biểu"
+  },
+  {
+    "type": "patent",
+    "year": "2025",
+    "title": "Phương pháp chế biến khoáng vật xenotime",
+    "meta": "Bằng độc quyền sáng chế số 44433."
+  },
+  {
+    "type": "patent",
+    "year": "2025",
+    "title": "Quy trình sản xuất phân bón lá trên cơ sở phức chất đất hiếm bổ sung vi lượng nano",
+    "meta": "Bằng độc quyền sáng chế số 52319."
+  },
+  {
+    "type": "patent",
+    "year": "2024",
+    "title": "Quy trình chế biến quặng monazit",
+    "meta": "Bằng độc quyền sáng chế số 41857."
+  },
+  {
+    "type": "patent",
+    "year": "2023",
+    "title": "Phương pháp sản xuất phân bón hữu cơ vi lượng chứa Cu, Zn, Mo",
+    "meta": "Bằng độc quyền sáng chế số 34960."
+  },
+  {
+    "type": "patent",
+    "year": "2019",
+    "title": "Quy trình thu hồi antimon từ các nguồn chứa antimon",
+    "meta": "Bằng độc quyền sáng chế số 23004."
+  }
+],
     activitiesList: [
-      ['Hội thảo khoa học', 'Vật liệu đất hiếm phát quang', 'Seminar chuyên môn với báo cáo viên trong và ngoài đơn vị về vật liệu vô cơ và vật liệu phát quang.'],
-      ['Hợp tác nghiên cứu', 'Xúc tác xử lý môi trường', 'Phối hợp với các nhóm nghiên cứu và đối tác công nghiệp trong nghiên cứu, thử nghiệm và đánh giá vật liệu xúc tác.'],
-      ['Đào tạo', 'Thực hành tổng hợp sol–gel và thủy nhiệt', 'Hướng dẫn quy trình thí nghiệm, xử lý số liệu và trình bày báo cáo khoa học cho học viên và sinh viên.']
+  {
+    "date": "2025-07-17",
+    "slug": "hoi-thao-hoa-vo-co-xi-2025",
+    "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
+    "tag": "Hội thảo khoa học",
+    "title": "Hội thảo khoa học quốc gia lần thứ XI về Hóa vô cơ – Đất hiếm – Phân bón – Phân tích",
+    "summary": "Ngày 17/07/2025, Phòng Vật liệu Vô cơ tham gia tổ chức thành công hội thảo tại Trường Đại học Công nghiệp TP.HCM (IUH), kết nối các nhóm nghiên cứu về vật liệu, nông nghiệp và môi trường.",
+    "paragraphs": [
+      "Hội thảo quy tụ các nhà khoa học, giảng viên và chuyên gia đến từ nhiều viện nghiên cứu, trường đại học trong cả nước. Sự kiện là dịp trao đổi kết quả nghiên cứu, thảo luận các hướng ứng dụng và tăng cường kết nối chuyên môn trong lĩnh vực hóa vô cơ, đất hiếm, phân bón và phân tích.",
+      "Tham dự hội thảo có GS.TS. Đặng Vũ Minh, Chủ tịch danh dự Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam; PGS.TS. Lưu Minh Đại, Trưởng Ban tổ chức; PGS.TS. Đàm Sao Mai, Phó Hiệu trưởng IUH; cùng đại diện các trường đại học, học viện, giảng viên, học viên và sinh viên. Các chức danh nêu trong bài được ghi nhận tại thời điểm diễn ra sự kiện.",
+      "Phát biểu tại hội thảo, PGS.TS. Đàm Sao Mai nhấn mạnh yêu cầu gắn nghiên cứu với nhu cầu thực tiễn, đặc biệt trong phát triển nông nghiệp sạch, vật liệu thân thiện môi trường và công nghệ xanh. Việc đưa kết quả nghiên cứu vào ứng dụng cần chú trọng tính tuần hoàn và khả năng phục vụ nông nghiệp thông minh.",
+      "Chương trình gồm 4 báo cáo phiên toàn thể và 16 báo cáo chuyên đề tại hai tiểu ban. Nội dung tập trung vào vật liệu nano trong nông nghiệp và y sinh, xúc tác phân hủy các hợp chất khó phân hủy, phân bón thông minh, công nghệ xử lý môi trường và ứng dụng đất hiếm trong nông nghiệp dược liệu.",
+      "Hội thảo tiếp nhận 54 bài báo tóm tắt; 35 bài được chọn đăng trên Tạp chí Phân tích Lý – Hóa – Sinh. Những trao đổi tại hội thảo góp phần kết nối nghiên cứu cơ bản với các bài toán ứng dụng trong sản xuất nông nghiệp, phát triển vật liệu và bảo vệ môi trường."
     ]
+  }
+]
   },
   en: {
     nav: { home: 'Home', research: 'Research', people: 'People', publications: 'Publications', activities: 'Activities', contact: 'Contact' },
@@ -339,7 +466,7 @@ const siteContent = {
     research: { title: 'Research', lead: 'From materials synthesis to structure, properties, and applications.', intro: 'Our programs focus on rare-earth elements, hydrometallurgical recovery of valuable metals, nanomaterials for environmental treatment, industrial waste treatment, and chemical pollution assessment.' },
     people: { title: 'People', lead: 'An open research group built around careful experimentation and interdisciplinary collaboration.', intro: 'Replace these placeholder cards with the principal investigator, researchers, PhD students, graduate students, and active project members.' },
     publications: { title: 'Publications', lead: 'Journal papers, conferences, projects, and intellectual property can be updated regularly.', intro: 'The entries below are placeholders ready to be replaced with real publications.' },
-    activities: { title: 'Activities', lead: 'News, seminars, collaborations, training, and academic activities of the lab.', intro: 'A card-based news structure with image, category, date, and short description.' },
+    activities: { title: 'Activities', lead: 'News, seminars, collaborations, training, and academic activities of the lab.', intro: 'Activities are organized by year, with the most recent first.' },
     contact: { title: 'Contact', lead: 'Connect with us for research, training, and inorganic materials technology transfer.', intro: 'Send your project information, analysis request, or collaboration idea so the lab can respond with a suitable direction.', email: 'nhiemdn@ims.vast.ac.vn', address: '406B2, 18 Hoang Quoc Viet, Nghia Do, Ha Noi, Vietnam', mapsUrl: 'https://maps.app.goo.gl/9ETvBbCDyM5J5xkx8', mapsLabel: 'Open in Google Maps', head: { name: 'Assoc. Prof. Dr. Dao Ngoc Nhiem', title: 'Head of Laboratory', office: 'Room 406, Building B2', phone: '0915417696', email: 'nhiemdn@ims.vast.ac.vn', links: [ { label: 'ORCID', url: 'https://orcid.org/0000-0002-7769-3701' }, { label: 'ResearchGate', url: 'https://www.researchgate.net/profile/Ngoc-Dao-2' } ] }, hours: 'Monday - Friday, 08:00 - 17:00' },
     researchItems: [
       { slug: 'rare-earths', title: 'Rare-earth extraction, separation, and applications', text: 'From xenotime/monazite minerals to rare-earth compounds, micronutrient fertilizers, adsorbents, and Ce/La-based catalysts.', url: 'research-detail.html?topic=rare-earths' },
@@ -567,7 +694,7 @@ const siteContent = {
           {
             "name": "Academician Dang Vu Minh",
             "role": "Former member",
-            "focus": "Chemist and foreign member of the Russian Academy of Sciences; former President of the Vietnam Academy of Science and Technology.",
+            "focus": "Vietnamese professor and chemist, Doctor of Science, foreign member of the Russian Academy of Sciences; former President of the Vietnam Academy of Science and Technology; former member of the Central Committee of the Communist Party of Vietnam; former Chair of the National Assembly Committee on Science, Technology and Environment.",
             "photo": "../assets/dang-vu-minh.jpg",
             "links": [
               {
@@ -579,7 +706,7 @@ const siteContent = {
           {
             "name": "Assoc. Prof. Dr. Luu Minh Dai",
             "role": "Former Head of the Inorganic Materials Laboratory",
-            "focus": "Contributions to the laboratory’s research directions, training and scientific development.",
+            "focus": "A scientist associated with the Inorganic Materials Laboratory, formerly serving as Head of Laboratory and contributing to its research direction, training activities, and professional development.",
             "photo": "../assets/luu-minh-dai.jpg",
             "links": []
           }
@@ -587,30 +714,157 @@ const siteContent = {
       }
     ],
     publicationList: [
-      { type: 'section', title: 'Selected Papers' },
-      { year: '2026', title: 'Decoration of MnFe2O4 nanoparticles on activated carbon as recoverable photocatalyst for perfluorooctanesulfonic acid degradation in water', url: 'https://doi.org/10.1039/d6ra00405a', meta: 'RSC Advances, 16(18). Q1, Impact Factor = 3.9.' },
-      { year: '2026', title: 'Microwave-assisted synthesis of recoverable Fe2O3/Ce-doped ZnO/graphene oxide ternary photocatalyst for efficient solar-light-driven mineralization of organic dye in water', url: 'https://doi.org/10.1016/j.inoche.2026.116329', meta: 'Inorganic Chemistry Communications, p.116329. Q1, Impact Factor = 5.4.' },
-      { year: '2026', title: 'Relationship between microplastics and heavy metals in Tam Giang-Cau Hai lagoon sediments', url: 'https://doi.org/10.1016/j.marpolbul.2025.119106', meta: 'Marine Pollution Bulletin, 224. Q1, Impact Factor = 4.9.' },
-      { year: '2025', title: 'Microwave-assisted synthesis of self-assembled C-doped-ZnO/g-C3N4 heterojunction catalysts for effective photodegradation of ofloxacin antibiotic', url: 'https://doi.org/10.1039/d5na00060b', meta: 'Nanoscale Advances, 7(10). Q1, Impact Factor = 4.7.' },
-      { year: '2025', title: 'Synthesis of monoclinic clinobisvanite BiVO4 for effective visible-light degradation of antibiotics in water: Photocatalytic performance, reaction kinetics, and mechanism', url: 'https://doi.org/10.1016/j.powtec.2025.120650', meta: 'Powder Technology, 453. Q1, Impact Factor = 5.18.' },
-      { year: '2024', title: 'Enhanced photocatalytic performance of ZnO under visible light by co-doping of Ta and C using hydrothermal method', url: 'https://doi.org/10.1039/d4ra00579a', meta: 'RSC Advances, 14(18). Q1, Impact Factor = 3.9.' },
-      { year: '2023', title: 'Microplastics and trace metals in river sediment: Prevalence and correlation with multiple factors', url: 'https://doi.org/10.1016/j.scitotenv.2023.165145', meta: 'Science of The Total Environment. Q1, Impact Factor = 9.8.' },
-      { year: '2025', title: 'Abundance, distribution, and seasonal variation of marine litter on the beaches of central Vietnam', url: 'https://doi.org/10.1016/j.marpolbul.2025.118046', meta: 'Marine Pollution Bulletin, 216. Q1, Impact Factor = 4.9.' },
-      { year: '2024', title: 'Efficient photocatalytic remediation of persistent organic pollutants using magnetically recoverable spinel manganese ferrite nanoparticles supported on activated carbon', url: 'https://doi.org/10.1016/j.materresbull.2024.112913', meta: 'Materials Research Bulletin, 178, p.112913. Impact Factor = 5.6.' },
-      { year: '2023', title: 'Ethylenediamine-entrapped defective UiO-66(Zr) frameworks for improved CO2 adsorption and selectivity', url: 'https://doi.org/10.1016/j.inoche.2023.111476', meta: 'Inorganic Chemistry Communications, 158. Q1, Impact Factor = 3.8.' },
-      { year: '2023', title: 'One-step hydrothermal preparation of Ta-doped ZnO nanorods for improving decolorization efficiency under visible light', url: 'https://doi.org/10.1039/d2ra07655a', meta: 'RSC Advances, 13(8), pp.5208-5218. Q1, Impact Factor = 4.0.' },
-      { year: '2023', title: 'One-pot hydrothermal preparation of capsule-like nanocomposites of C/Ce-co-doped ZnO supported on graphene to enhance photodegradation', url: 'https://doi.org/10.1039/d2nj04937f', meta: 'New Journal of Chemistry. Q1, Impact Factor = 3.9.' },
-      { type: 'section', title: 'Selected Patents' },
-      { type: 'patent', year: '2025', title: 'Method for processing xenotime mineral', meta: 'VN Patent No. 44433.' },
-      { type: 'patent', year: '2025', title: 'Process of manufacturing foliar fertilizer based on rare earth complexes supplemented with nano micronutrients', meta: 'VN Patent No. 52319.' },
-      { type: 'patent', year: '2024', title: 'Process for processing monazite ore', meta: 'VN Patent No. 41857.' },
-      { type: 'patent', year: '2023', title: 'Method for producing organic micronutrient fertilizer containing Cu, Zn, and Mo', meta: 'VN Patent No. 34960.' },
-      { type: 'patent', year: '2019', title: 'Process of recovering antimony from antimony sources', meta: 'VN Patent No. 23004.' }
-    ],
+  {
+    "type": "section",
+    "title": "Selected Papers"
+  },
+  {
+    "year": "2026",
+    "title": "Elucidating Visible‐Light Photocatalytic Degradation of Organophosphorus Residues Over Reduced Graphene Oxide/Iron‐Manganese Mixed Oxides Composite",
+    "url": "https://doi.org/10.1002/slct.74435",
+    "meta": "ChemistrySelect, 11(35), e74435."
+  },
+  {
+    "year": "2026",
+    "title": "Application of Ce‐Based Nanomaterial in Polyurethane for Weather Resistance: A Review",
+    "url": "https://doi.org/10.1002/vjch.70151",
+    "meta": "Vietnam Journal of Chemistry, e70151."
+  },
+  {
+    "year": "2026",
+    "title": "Diversity and characteristics of microplastics in bivalves from Tam Giang Lagoon",
+    "url": "https://doi.org/10.1007/s10661-026-15000-1",
+    "meta": "Environmental Monitoring and Assessment, 198(2), 170."
+  },
+  {
+    "year": "2026",
+    "title": "Decoration of MnFe2O4 nanoparticles on activated carbon as recoverable photocatalyst for perfluorooctanesulfonic acid degradation in water",
+    "url": "https://doi.org/10.1039/d6ra00405a",
+    "meta": "RSC Advances, 16(18). Q1, Impact Factor = 3.9."
+  },
+  {
+    "year": "2026",
+    "title": "Microwave-assisted synthesis of recoverable Fe2O3/Ce-doped ZnO/graphene oxide ternary photocatalyst for efficient solar-light-driven mineralization of organic dye in water",
+    "url": "https://doi.org/10.1016/j.inoche.2026.116329",
+    "meta": "Inorganic Chemistry Communications, p.116329. Q1, Impact Factor = 5.4."
+  },
+  {
+    "year": "2026",
+    "title": "Relationship between microplastics and heavy metals in Tam Giang-Cau Hai lagoon sediments",
+    "url": "https://doi.org/10.1016/j.marpolbul.2025.119106",
+    "meta": "Marine Pollution Bulletin, 224. Q1, Impact Factor = 4.9."
+  },
+  {
+    "year": "2025",
+    "title": "Geopolymer materials made from fly ash, blast furnace, and incinerator slags in Vietnam: a study on their mechanical and physical properties",
+    "url": "https://doi.org/10.1088/2053-1591/adf495",
+    "meta": "Materials Research Express, 12(8), 085002."
+  },
+  {
+    "year": "2025",
+    "title": "Microwave-assisted synthesis of self-assembled C-doped-ZnO/g-C3N4 heterojunction catalysts for effective photodegradation of ofloxacin antibiotic",
+    "url": "https://doi.org/10.1039/d5na00060b",
+    "meta": "Nanoscale Advances, 7(10). Q1, Impact Factor = 4.7."
+  },
+  {
+    "year": "2025",
+    "title": "Synthesis of monoclinic clinobisvanite BiVO4 for effective visible-light degradation of antibiotics in water: Photocatalytic performance, reaction kinetics, and mechanism",
+    "url": "https://doi.org/10.1016/j.powtec.2025.120650",
+    "meta": "Powder Technology, 453. Q1, Impact Factor = 5.18."
+  },
+  {
+    "year": "2025",
+    "title": "Abundance, distribution, and seasonal variation of marine litter on the beaches of central Vietnam",
+    "url": "https://doi.org/10.1016/j.marpolbul.2025.118046",
+    "meta": "Marine Pollution Bulletin, 216. Q1, Impact Factor = 4.9."
+  },
+  {
+    "year": "2024",
+    "title": "Enhanced photocatalytic performance of ZnO under visible light by co-doping of Ta and C using hydrothermal method",
+    "url": "https://doi.org/10.1039/d4ra00579a",
+    "meta": "RSC Advances, 14(18). Q1, Impact Factor = 3.9."
+  },
+  {
+    "year": "2024",
+    "title": "Efficient photocatalytic remediation of persistent organic pollutants using magnetically recoverable spinel manganese ferrite nanoparticles supported on activated carbon",
+    "url": "https://doi.org/10.1016/j.materresbull.2024.112913",
+    "meta": "Materials Research Bulletin, 178, p.112913. Impact Factor = 5.6."
+  },
+  {
+    "year": "2023",
+    "title": "Microplastics and trace metals in river sediment: Prevalence and correlation with multiple factors",
+    "url": "https://doi.org/10.1016/j.scitotenv.2023.165145",
+    "meta": "Science of The Total Environment. Q1, Impact Factor = 9.8."
+  },
+  {
+    "year": "2023",
+    "title": "Ethylenediamine-entrapped defective UiO-66(Zr) frameworks for improved CO2 adsorption and selectivity",
+    "url": "https://doi.org/10.1016/j.inoche.2023.111476",
+    "meta": "Inorganic Chemistry Communications, 158. Q1, Impact Factor = 3.8."
+  },
+  {
+    "year": "2023",
+    "title": "One-step hydrothermal preparation of Ta-doped ZnO nanorods for improving decolorization efficiency under visible light",
+    "url": "https://doi.org/10.1039/d2ra07655a",
+    "meta": "RSC Advances, 13(8), pp.5208-5218. Q1, Impact Factor = 4.0."
+  },
+  {
+    "year": "2023",
+    "title": "One-pot hydrothermal preparation of capsule-like nanocomposites of C/Ce-co-doped ZnO supported on graphene to enhance photodegradation",
+    "url": "https://doi.org/10.1039/d2nj04937f",
+    "meta": "New Journal of Chemistry. Q1, Impact Factor = 3.9."
+  },
+  {
+    "type": "section",
+    "title": "Selected Patents"
+  },
+  {
+    "type": "patent",
+    "year": "2025",
+    "title": "Method for processing xenotime mineral",
+    "meta": "VN Patent No. 44433."
+  },
+  {
+    "type": "patent",
+    "year": "2025",
+    "title": "Process of manufacturing foliar fertilizer based on rare earth complexes supplemented with nano micronutrients",
+    "meta": "VN Patent No. 52319."
+  },
+  {
+    "type": "patent",
+    "year": "2024",
+    "title": "Process for processing monazite ore",
+    "meta": "VN Patent No. 41857."
+  },
+  {
+    "type": "patent",
+    "year": "2023",
+    "title": "Method for producing organic micronutrient fertilizer containing Cu, Zn, and Mo",
+    "meta": "VN Patent No. 34960."
+  },
+  {
+    "type": "patent",
+    "year": "2019",
+    "title": "Process of recovering antimony from antimony sources",
+    "meta": "VN Patent No. 23004."
+  }
+],
     activitiesList: [
-      ['Seminar', 'Academic exchange on rare-earth luminescent materials', 'Internal and invited seminars in inorganic materials science.'],
-      ['Collaboration', 'Environmental catalysis project connection', 'Joint development with research groups and industrial partners.'],
-      ['Training', 'Student training in sol-gel and hydrothermal synthesis', 'Hands-on training in experimentation, data analysis, and reporting.']
+  {
+    "date": "2025-07-17",
+    "slug": "hoi-thao-hoa-vo-co-xi-2025",
+    "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
+    "tag": "Scientific conference",
+    "title": "11th National Scientific Conference on Inorganic Chemistry, Rare Earths, Fertilizers and Analysis",
+    "summary": "On 17 July 2025, the Inorganic Materials Laboratory helped organize the conference at the Industrial University of Ho Chi Minh City (IUH), bringing together researchers working on materials, agriculture and the environment.",
+    "paragraphs": [
+      "The conference brought together scientists, lecturers and specialists from research institutes and universities across Vietnam. It provided a forum for sharing research findings, discussing applications and strengthening academic connections in inorganic chemistry, rare earths, fertilizers and analysis.",
+      "Participants included Prof. Dr. Dang Vu Minh, Honorary President of the Vietnam Union of Science and Technology Associations; Assoc. Prof. Dr. Luu Minh Dai, Chair of the Organizing Committee; Assoc. Prof. Dr. Dam Sao Mai, Vice Rector of IUH; and representatives of universities and academies, lecturers and students. These titles refer to the positions held at the time of the event.",
+      "In her remarks, Assoc. Prof. Dr. Dam Sao Mai emphasized the need to connect research with practical demands, particularly in clean agriculture, environmentally friendly materials and green technologies. She highlighted circularity and applications in smart agriculture as important considerations in translating research into practice.",
+      "The programme comprised 4 plenary presentations and 16 specialist presentations across two parallel sessions. Topics included nanomaterials for agriculture and biomedicine, catalysts for degrading persistent compounds, smart fertilizers, environmental treatment technologies, and rare-earth applications in medicinal-plant cultivation.",
+      "The conference received 54 abstracts, with 35 papers selected for publication in the Journal of Analytical Sciences (Tạp chí Phân tích Lý – Hóa – Sinh). Discussions connected fundamental research with applications in agricultural production, materials development and environmental protection."
     ]
+  }
+]
   }
 };

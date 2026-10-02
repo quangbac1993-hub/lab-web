@@ -84,8 +84,10 @@ function renderList(container, key, lang) {
     }).join('');
   }
   if (key === 'activitiesList') {
-    container.className = 'activity-grid page-grid';
-    container.innerHTML = items.map(([tag, title, text], index) => `<article class="activity-card reveal"><img src="../assets/${index === 1 ? 'environment-catalysis' : 'rare-earth-catalyst'}.svg" alt="${title}" /><span>${tag}</span><h3>${formatScientificText(title)}</h3><p>${formatScientificText(text)}</p></article>`).join('');
+    container.className = 'activity-years';
+    const dated = items.filter(item => /^\d{4}-\d{2}-\d{2}$/.test(item.date)).slice().sort((a, b) => b.date.localeCompare(a.date));
+    const years = [...new Set(dated.map(item => item.date.slice(0, 4)))];
+    container.innerHTML = years.map(year => `<section class="activity-year" aria-labelledby="year-${year}"><h2 id="year-${year}">${year}</h2>${dated.filter(item => item.date.startsWith(year)).map(item => `<article class="activity-story" id="${item.slug}"><div class="activity-meta"><span>${item.tag}</span><time datetime="${item.date}">${new Intl.DateTimeFormat(lang === 'vi' ? 'vi-VN' : 'en-GB', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(item.date + 'T00:00:00Z'))}</time></div><h3>${item.title}</h3><p class="activity-summary">${item.summary}</p><details><summary>${lang === 'vi' ? 'Đọc toàn bài' : 'Read full article'}</summary><div class="activity-body">${item.paragraphs.map(p => `<p>${p}</p>`).join('')}<p class="source-note"><a href="${item.source}" target="_blank" rel="noopener noreferrer">${lang === 'vi' ? 'Nguồn: bài đăng của IUH trên Facebook' : 'Source: IUH Facebook post'}</a></p></div></details></article>`).join('')}</section>`).join('');
   }
   if (key === 'contact') {
     container.className = 'contact-page';

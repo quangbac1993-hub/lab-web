@@ -442,21 +442,51 @@ const siteContent = {
   }
 ],
     activitiesList: [
-  {
-    "date": "2025-07-17",
-    "slug": "hoi-thao-hoa-vo-co-xi-2025",
-    "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
-    "tag": "Hội thảo khoa học",
-    "title": "Hội thảo khoa học quốc gia lần thứ XI về Hóa vô cơ – Đất hiếm – Phân bón – Phân tích",
-    "summary": "Ngày 17/07/2025, Phòng Vật liệu Vô cơ tham gia tổ chức thành công hội thảo tại Trường Đại học Công nghiệp TP.HCM (IUH), kết nối các nhóm nghiên cứu về vật liệu, nông nghiệp và môi trường.",
-    "paragraphs": [
-      "Hội thảo quy tụ các nhà khoa học, giảng viên và chuyên gia đến từ nhiều viện nghiên cứu, trường đại học trong cả nước. Sự kiện là dịp trao đổi kết quả nghiên cứu, thảo luận các hướng ứng dụng và tăng cường kết nối chuyên môn trong lĩnh vực hóa vô cơ, đất hiếm, phân bón và phân tích.",
-      "Tham dự hội thảo có GS.TS. Đặng Vũ Minh, Chủ tịch danh dự Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam; PGS.TS. Lưu Minh Đại, Trưởng Ban tổ chức; PGS.TS. Đàm Sao Mai, Phó Hiệu trưởng IUH; cùng đại diện các trường đại học, học viện, giảng viên, học viên và sinh viên. Các chức danh nêu trong bài được ghi nhận tại thời điểm diễn ra sự kiện.",
-      "Phát biểu tại hội thảo, PGS.TS. Đàm Sao Mai nhấn mạnh yêu cầu gắn nghiên cứu với nhu cầu thực tiễn, đặc biệt trong phát triển nông nghiệp sạch, vật liệu thân thiện môi trường và công nghệ xanh. Việc đưa kết quả nghiên cứu vào ứng dụng cần chú trọng tính tuần hoàn và khả năng phục vụ nông nghiệp thông minh.",
-      "Chương trình gồm 4 báo cáo phiên toàn thể và 16 báo cáo chuyên đề tại hai tiểu ban. Nội dung tập trung vào vật liệu nano trong nông nghiệp và y sinh, xúc tác phân hủy các hợp chất khó phân hủy, phân bón thông minh, công nghệ xử lý môi trường và ứng dụng đất hiếm trong nông nghiệp dược liệu.",
-      "Hội thảo tiếp nhận 54 bài báo tóm tắt; 35 bài được chọn đăng trên Tạp chí Phân tích Lý – Hóa – Sinh. Những trao đổi tại hội thảo góp phần kết nối nghiên cứu cơ bản với các bài toán ứng dụng trong sản xuất nông nghiệp, phát triển vật liệu và bảo vệ môi trường."
-    ]
-  }
+    {
+        "date": "2025-07-17",
+        "slug": "hoi-thao-hoa-vo-co-xi-2025",
+        "images": [
+            "../assets/conference-2025/img-01.jpg",
+            "../assets/conference-2025/img-02.jpg",
+            "../assets/conference-2025/img-03.jpg",
+            "../assets/conference-2025/img-04.jpg",
+            "../assets/conference-2025/img-05.jpg",
+            "../assets/conference-2025/img-06.jpg",
+            "../assets/conference-2025/img-07.jpg",
+            "../assets/conference-2025/img-08.jpg",
+            "../assets/conference-2025/img-09.jpg",
+            "../assets/conference-2025/img-10.jpg"
+        ],
+        "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
+        "tag": "Hội thảo khoa học",
+        "title": "Hội thảo khoa học quốc gia lần thứ XI về Hóa vô cơ – Đất hiếm – Phân bón – Phân tích",
+        "summary": "Ngày 17/07/2025, Phòng Vật liệu Vô cơ tham gia tổ chức thành công hội thảo tại Trường Đại học Công nghiệp TP.HCM (IUH), kết nối các nhóm nghiên cứu về vật liệu, nông nghiệp và môi trường.",
+        "paragraphs": [
+            "Hội thảo quy tụ các nhà khoa học, giảng viên và chuyên gia đến từ nhiều viện nghiên cứu, trường đại học trong cả nước. Sự kiện là dịp trao đổi kết quả nghiên cứu, thảo luận các hướng ứng dụng và tăng cường kết nối chuyên môn trong lĩnh vực hóa vô cơ, đất hiếm, phân bón và phân tích.",
+            "Tham dự hội thảo có GS.TS. Đặng Vũ Minh, Chủ tịch danh dự Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam; PGS.TS. Lưu Minh Đại, Trưởng Ban tổ chức; PGS.TS. Đàm Sao Mai, Phó Hiệu trưởng IUH; cùng đại diện các trường đại học, học viện, giảng viên, học viên và sinh viên. Các chức danh nêu trong bài được ghi nhận tại thời điểm diễn ra sự kiện.",
+            "Phát biểu tại hội thảo, PGS.TS. Đàm Sao Mai nhấn mạnh yêu cầu gắn nghiên cứu với nhu cầu thực tiễn, đặc biệt trong phát triển nông nghiệp sạch, vật liệu thân thiện môi trường và công nghệ xanh. Việc đưa kết quả nghiên cứu vào ứng dụng cần chú trọng tính tuần hoàn và khả năng phục vụ nông nghiệp thông minh.",
+            "Chương trình gồm 4 báo cáo phiên toàn thể và 16 báo cáo chuyên đề tại hai tiểu ban. Nội dung tập trung vào vật liệu nano trong nông nghiệp và y sinh, xúc tác phân hủy các hợp chất khó phân hủy, phân bón thông minh, công nghệ xử lý môi trường và ứng dụng đất hiếm trong nông nghiệp dược liệu.",
+            "Hội thảo tiếp nhận 54 bài báo tóm tắt; 35 bài được chọn đăng trên Tạp chí Phân tích Lý – Hóa – Sinh. Những trao đổi tại hội thảo góp phần kết nối nghiên cứu cơ bản với các bài toán ứng dụng trong sản xuất nông nghiệp, phát triển vật liệu và bảo vệ môi trường."
+        ]
+    },
+    {
+        "date": "2024-07-11",
+        "slug": "hoi-thao-hoa-vo-co-x-2024",
+    "images": [
+        "../assets/conference-2024/img-01.jpg",
+        "../assets/conference-2024/img-02.jpg",
+        "../assets/conference-2024/img-03.jpg"
+    ],
+        "tag": "Hội thảo khoa học",
+        "title": "Hội nghị Khoa học Toàn quốc lần thứ X: \"Hóa Vô cơ - Đất hiếm - Phân tích\"",
+        "summary": "Ngày 11-12/07/2024, Hội nghị khoa học toàn quốc lần thứ X đã được tổ chức thành công tại Viện Nghiên cứu và Ứng dụng Công nghệ Nha Trang (Khánh Hòa).",
+        "paragraphs": [
+            "Trong hai ngày 11 và 12/07/2024, Hội nghị Khoa học Toàn quốc lần thứ X chuyên đề \"Hóa Vô cơ - Đất hiếm - Phân tích\" đã diễn ra tại Trung tâm Nghiên cứu Tiên tiến và Sáng tạo Hòn Chồng (TP. Nha Trang, Khánh Hòa), do Viện Nghiên cứu và Ứng dụng Công nghệ Nha Trang (Viện Hàn lâm KH&CN VN) đăng cai tổ chức.",
+            "Sự kiện vinh dự có sự tham dự và phát biểu chỉ đạo của GS.TSKH. Đặng Vũ Minh - Chủ tịch danh dự Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam, cùng PGS.TS. Phạm Đức Thịnh - Viện trưởng Viện NC&ƯD Công nghệ Nha Trang, và PGS.TS. Lưu Minh Đại điều hành khai mạc.",
+            "Chương trình hội nghị gồm nhiều phiên báo cáo chuyên đề sâu rộng. Nổi bật là phần giới thiệu Chương trình KC.02/21-30 của GS.TS. Nguyễn Quang Liêm, cùng 14 báo cáo khoa học bao quát nhiều hướng nghiên cứu hiện đại: từ ứng dụng công nghệ xanh chế biến sâu tinh quặng đất hiếm, vật liệu xúc tác quang, vật liệu nano xử lý môi trường, đến các giải pháp phân bón sinh học và xử lý kháng sinh.",
+            "Hội nghị là diễn đàn quan trọng để các nhà khoa học, giảng viên, nghiên cứu sinh đến từ các Viện nghiên cứu và Trường đại học trên cả nước giao lưu, chia sẻ những thành tựu mới nhất và định hướng các nghiên cứu có tính ứng dụng thực tiễn cao. Khép lại hội nghị là chuyến tham quan thực tế và giao lưu tại Đài Thiên văn Nha Trang, thắt chặt hơn nữa tinh thần hợp tác trong cộng đồng khoa học."
+        ]
+    }
 ]
   },
   en: {
@@ -850,21 +880,51 @@ const siteContent = {
   }
 ],
     activitiesList: [
-  {
-    "date": "2025-07-17",
-    "slug": "hoi-thao-hoa-vo-co-xi-2025",
-    "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
-    "tag": "Scientific conference",
-    "title": "11th National Scientific Conference on Inorganic Chemistry, Rare Earths, Fertilizers and Analysis",
-    "summary": "On 17 July 2025, the Inorganic Materials Laboratory helped organize the conference at the Industrial University of Ho Chi Minh City (IUH), bringing together researchers working on materials, agriculture and the environment.",
-    "paragraphs": [
-      "The conference brought together scientists, lecturers and specialists from research institutes and universities across Vietnam. It provided a forum for sharing research findings, discussing applications and strengthening academic connections in inorganic chemistry, rare earths, fertilizers and analysis.",
-      "Participants included Prof. Dr. Dang Vu Minh, Honorary President of the Vietnam Union of Science and Technology Associations; Assoc. Prof. Dr. Luu Minh Dai, Chair of the Organizing Committee; Assoc. Prof. Dr. Dam Sao Mai, Vice Rector of IUH; and representatives of universities and academies, lecturers and students. These titles refer to the positions held at the time of the event.",
-      "In her remarks, Assoc. Prof. Dr. Dam Sao Mai emphasized the need to connect research with practical demands, particularly in clean agriculture, environmentally friendly materials and green technologies. She highlighted circularity and applications in smart agriculture as important considerations in translating research into practice.",
-      "The programme comprised 4 plenary presentations and 16 specialist presentations across two parallel sessions. Topics included nanomaterials for agriculture and biomedicine, catalysts for degrading persistent compounds, smart fertilizers, environmental treatment technologies, and rare-earth applications in medicinal-plant cultivation.",
-      "The conference received 54 abstracts, with 35 papers selected for publication in the Journal of Analytical Sciences (Tạp chí Phân tích Lý – Hóa – Sinh). Discussions connected fundamental research with applications in agricultural production, materials development and environmental protection."
-    ]
-  }
+    {
+        "date": "2025-07-17",
+        "slug": "hoi-thao-hoa-vo-co-xi-2025",
+        "images": [
+            "../assets/conference-2025/img-01.jpg",
+            "../assets/conference-2025/img-02.jpg",
+            "../assets/conference-2025/img-03.jpg",
+            "../assets/conference-2025/img-04.jpg",
+            "../assets/conference-2025/img-05.jpg",
+            "../assets/conference-2025/img-06.jpg",
+            "../assets/conference-2025/img-07.jpg",
+            "../assets/conference-2025/img-08.jpg",
+            "../assets/conference-2025/img-09.jpg",
+            "../assets/conference-2025/img-10.jpg"
+        ],
+        "source": "https://www.facebook.com/sviuh/posts/1054143523549403/",
+        "tag": "Scientific conference",
+        "title": "11th National Scientific Conference on Inorganic Chemistry, Rare Earths, Fertilizers and Analysis",
+        "summary": "On 17 July 2025, the Inorganic Materials Laboratory helped organize the conference at the Industrial University of Ho Chi Minh City (IUH), bringing together researchers working on materials, agriculture and the environment.",
+        "paragraphs": [
+            "The conference brought together scientists, lecturers and specialists from research institutes and universities across Vietnam. It provided a forum for sharing research findings, discussing applications and strengthening academic connections in inorganic chemistry, rare earths, fertilizers and analysis.",
+            "Participants included Prof. Dr. Dang Vu Minh, Honorary President of the Vietnam Union of Science and Technology Associations; Assoc. Prof. Dr. Luu Minh Dai, Chair of the Organizing Committee; Assoc. Prof. Dr. Dam Sao Mai, Vice Rector of IUH; and representatives of universities and academies, lecturers and students. These titles refer to the positions held at the time of the event.",
+            "In her remarks, Assoc. Prof. Dr. Dam Sao Mai emphasized the need to connect research with practical demands, particularly in clean agriculture, environmentally friendly materials and green technologies. She highlighted circularity and applications in smart agriculture as important considerations in translating research into practice.",
+            "The programme comprised 4 plenary presentations and 16 specialist presentations across two parallel sessions. Topics included nanomaterials for agriculture and biomedicine, catalysts for degrading persistent compounds, smart fertilizers, environmental treatment technologies, and rare-earth applications in medicinal-plant cultivation.",
+            "The conference received 54 abstracts, with 35 papers selected for publication in the Journal of Analytical Sciences (Tạp chí Phân tích Lý – Hóa – Sinh). Discussions connected fundamental research with applications in agricultural production, materials development and environmental protection."
+        ]
+    },
+    {
+        "date": "2024-07-11",
+        "slug": "hoi-thao-hoa-vo-co-x-2024",
+    "images": [
+        "../assets/conference-2024/img-01.jpg",
+        "../assets/conference-2024/img-02.jpg",
+        "../assets/conference-2024/img-03.jpg"
+    ],
+        "tag": "Scientific conference",
+        "title": "10th National Scientific Conference on Inorganic Chemistry, Rare Earths and Analysis",
+        "summary": "On 11-12 July 2024, the 10th National Scientific Conference was successfully held at the Nha Trang Institute of Technology Research and Application (Khanh Hoa).",
+        "paragraphs": [
+            "On July 11 and 12, 2024, the 10th National Scientific Conference on \"Inorganic Chemistry - Rare Earths - Analysis\" took place at the Hon Chong Center for Advanced and Innovative Research (Nha Trang, Khanh Hoa), hosted by the Nha Trang Institute of Technology Research and Application (VAST).",
+            "The event was honored to receive a keynote address from Prof. Acad. Dang Vu Minh, Honorary President of VUSTA. Opening remarks were delivered by Assoc. Prof. Dr. Luu Minh Dai and Assoc. Prof. Dr. Pham Duc Thinh, Director of the Nha Trang Institute of Technology Research and Application.",
+            "The conference program featured numerous in-depth thematic presentations. Highlights included an introduction to the national science and technology program (KC.02/21-30) by Prof. Dr. Nguyen Quang Liem, alongside 14 scientific reports covering various modern research directions. Topics ranged from green technology in rare-earth deep processing, photocatalysts, and environmental nanomaterials, to bio-fertilizers and antibiotic treatment solutions.",
+            "The conference served as a vital forum for scientists, lecturers, and researchers from institutes and universities nationwide to exchange the latest achievements and orient highly applicable research. The event concluded with a field trip and a visit to the Nha Trang Observatory, further strengthening collaboration within the scientific community."
+        ]
+    }
 ]
   }
 };

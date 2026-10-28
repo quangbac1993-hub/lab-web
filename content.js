@@ -442,6 +442,33 @@ const siteContent = {
   }
 ],
     activitiesList: [
+{
+    "date": "2026-10-23",
+    "slug": "hoi-thao-phan-tich-hoa-ly-sinh-hoc-vi-2026",
+    "images": [
+        "../assets/analytical-conference-2026/img-01.jpg",
+        "../assets/analytical-conference-2026/img-02.jpg",
+        "../assets/analytical-conference-2026/img-03.jpg",
+        "../assets/analytical-conference-2026/img-04.jpg",
+        "../assets/analytical-conference-2026/img-05.jpg",
+        "../assets/analytical-conference-2026/img-06.jpg",
+        "../assets/analytical-conference-2026/img-07.jpg",
+        "../assets/analytical-conference-2026/img-08.jpg",
+        "../assets/analytical-conference-2026/img-09.jpg",
+        "../assets/analytical-conference-2026/img-10.jpg"
+    ],
+    "source": "https://iuh.edu.vn/vi/tin-tuc/700-dai-bieu-du-hoi-thao-khoa-hoc-toan-quoc-ve-ky-thuat-phan-tich-hoa-ly-va-sinh-hoc-tai-truong-dai-hoc-cong-nghiep-tp-hcm-2277.html",
+    "tag": "Hội thảo khoa học",
+    "title": "Hội thảo khoa học toàn quốc lần thứ VI về Kỹ thuật Phân tích Hóa, Lý và Sinh học",
+    "summary": "Từ ngày 23–25/10/2026, Trường Đại học Công nghiệp TP.HCM (IUH) tổ chức hội thảo với khoảng 700 đại biểu, trao đổi các nghiên cứu về kỹ thuật phân tích, vật liệu mới, xử lý ô nhiễm và thu hồi tài nguyên.",
+    "paragraphs": [
+        "Hội thảo quy tụ các nhà khoa học, giảng viên, nghiên cứu sinh, học viên và đại diện doanh nghiệp trên cả nước. Chương trình ghi nhận 100 bài báo khoa học toàn văn, 200 báo cáo tóm tắt và 500 nhà khoa học tham gia gửi bài; gồm 4 báo cáo tại phiên toàn thể và 30 báo cáo chuyên sâu thuộc 6 tiểu ban.",
+        "Các báo cáo tập trung vào công nghệ phân tích hiện đại, khoa học vật liệu, công nghệ thực phẩm, khoa học sự sống, phát triển dược phẩm, tái chế và bảo vệ môi trường. Những hướng nghiên cứu nổi bật gồm điện di vi lưu trong phân tích dược phẩm, chế biến sâu tài nguyên đất hiếm Việt Nam, nanosilica ứng dụng trong y sinh, cảm biến điện hóa và vật liệu xúc tác xử lý ô nhiễm.",
+        "Một số báo cáo đề cập đến phân tích xanh, hoạt chất sinh học và thu hồi tài nguyên từ pin, ắc quy đã qua sử dụng. Đây là các chủ đề có liên hệ với những hướng nghiên cứu về đất hiếm, vật liệu chức năng, thu hồi kim loại và xử lý môi trường của Phòng Vật liệu Vô cơ.",
+        "Hội thảo có 17 doanh nghiệp đồng hành thông qua tài trợ và triển lãm, tạo cơ hội trao đổi về thiết bị phân tích, công nghệ và khả năng ứng dụng kết quả nghiên cứu. Các phiên chuyên đề cũng là dịp để nhà khoa học trẻ trình bày kết quả, nhận phản biện và mở rộng hợp tác giữa trường đại học, viện nghiên cứu và doanh nghiệp.",
+        "Nội dung biên soạn theo bài viết IUH đăng ngày 28/10/2026. Nguồn ảnh: Trường Đại học Công nghiệp TP.HCM (IUH); bộ ảnh được dẫn từ bài viết gốc."
+    ]
+},
     {
         "date": "2025-07-17",
         "slug": "hoi-thao-hoa-vo-co-xi-2025",
@@ -880,6 +907,33 @@ const siteContent = {
   }
 ],
     activitiesList: [
+{
+    "date": "2026-10-23",
+    "slug": "hoi-thao-phan-tich-hoa-ly-sinh-hoc-vi-2026",
+    "images": [
+        "../assets/analytical-conference-2026/img-01.jpg",
+        "../assets/analytical-conference-2026/img-02.jpg",
+        "../assets/analytical-conference-2026/img-03.jpg",
+        "../assets/analytical-conference-2026/img-04.jpg",
+        "../assets/analytical-conference-2026/img-05.jpg",
+        "../assets/analytical-conference-2026/img-06.jpg",
+        "../assets/analytical-conference-2026/img-07.jpg",
+        "../assets/analytical-conference-2026/img-08.jpg",
+        "../assets/analytical-conference-2026/img-09.jpg",
+        "../assets/analytical-conference-2026/img-10.jpg"
+    ],
+    "source": "https://iuh.edu.vn/vi/tin-tuc/700-dai-bieu-du-hoi-thao-khoa-hoc-toan-quoc-ve-ky-thuat-phan-tich-hoa-ly-va-sinh-hoc-tai-truong-dai-hoc-cong-nghiep-tp-hcm-2277.html",
+    "tag": "Scientific conference",
+    "title": "6th National Conference on Chemical, Physical and Biological Analytical Techniques",
+    "summary": "Held on 23–25 October 2026 at the Industrial University of Ho Chi Minh City (IUH), the conference brought together approximately 700 delegates to discuss analytical techniques, new materials, pollution treatment and resource recovery.",
+    "paragraphs": [
+        "The conference welcomed scientists, lecturers, doctoral candidates, postgraduate students and business representatives from across Vietnam. Submissions included 100 full papers and 200 abstracts, with 500 scientists contributing. The programme featured 4 plenary presentations and 30 specialist presentations across 6 sessions.",
+        "Topics covered modern analytical technologies, materials science, food technology, life sciences, pharmaceutical development, recycling and environmental protection. Highlights included microfluidic electrophoresis for pharmaceutical analysis, advanced processing of Vietnamese rare-earth resources, nanosilica for biomedical applications, electrochemical sensors and catalytic materials for pollution treatment.",
+        "Other presentations addressed green analysis, bioactive compounds and resource recovery from spent batteries. These topics connect with the Inorganic Materials Laboratory’s research interests in rare earths, functional materials, metal recovery and environmental treatment.",
+        "A total of 17 companies supported the conference through sponsorship and exhibitions, enabling exchanges on analytical instruments, technologies and research applications. Specialist sessions also gave early-career researchers opportunities to present results, receive feedback and strengthen collaboration among universities, research institutes and businesses.",
+        "Adapted from the IUH article published on 28 October 2026. Photo credit: Industrial University of Ho Chi Minh City (IUH); all photographs are sourced from the original article."
+    ]
+},
     {
         "date": "2025-07-17",
         "slug": "hoi-thao-hoa-vo-co-xi-2025",
